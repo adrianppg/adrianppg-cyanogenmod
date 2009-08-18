@@ -1,4 +1,4 @@
-#summary Stable Version History
+#summary Stable Changelog
 
 ==STABLE==
 
