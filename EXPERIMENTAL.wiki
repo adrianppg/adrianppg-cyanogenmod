@@ -1,0 +1,152 @@
+#summary Experimental Version History
+
+=Experimental=
+
+* v3.9.11.2
+  * Fixed all the mismatched resource ids (force closes) in the Camera. You guys better love me for this because it was unbelievably tedious.
+  * Fixed the broken APN list.
+  * If you have a browser "force close", just reboot and it will be fixed. I'm working on this. It has to do with the browser provider starting before the browser due to global search.
+  * I can't promise that you won't have to wipe. Just do a Nandroid first.
+  * Home alternatives don't work so well with the global search. Hopefully the app authors provide an update. Pester them about it please.
+  * Don't use a theme on this version or any afterwards that wasn't designed specifically for it!
+
+* v3.9.11.1
+  * Include the correct Camera.apk !@#$*!@
+  * Update platform.xml
+
+* v3.9.11
+  * Global Search from Donut has been ported!
+  * Pulled in the nicer spinners while I was at it from Donut
+  * LocationServices memory leak fixed (by itp)
+  * Vold now scans the right partitions (by Rain)
+  * Included the correct lights.msm7k.so so the flashing jogball works on myTouch
+  * Don't use a theme on this version that wasn't designed specifically for it!
+
+* v3.9.10
+  * UNIVERSAL! Runs on both Dream and Magic 32B
+  * Now identifies itself as either T-Mobile G1 or myTouch (due to popular demand, and T-Mobiles lameness to support ADP devices)
+  * Revert the HTC_IME hack until I can figure it out
+  * Update kernel with patches for the new vulnerability in the wild
+
+* v3.9.9.1
+  * Revert a patch to vold that was causing havoc with all sorts of things that use the SD card
+
+* v3.9.9
+  * Rolled back to the old Launcher (the Advanced Launcher can be found here)
+  * Fixed the HTC_IME so it doesn't mess with the hardware keyboard (if you have problems, uninstall and reinstall the apk)
+  * Ported the lazy-dexopt code from donut for development. You need to set ro.build.type to "eng" to use this.
+  * Updated enhanced Mms app
+  * Fixed scrolling issues
+  * Other internal guts from donut
+  * Automatically enables compcache with no backing swap if you don't have a userinit.sh
+  * Updated system/xbin tools
+  * Included htop
+  * Added links in ramdisk and lib/hw for sapphire
+  * We are pretty much stable at this point, unless critical bugs are found
+
+* v3.9.8
+  * New wallpapers
+  * Fixed calendar issues
+  * Fixed network location issues
+  * Tidied up the lock screen
+  * Updated kernel, added SWAP_FREE_NOTIFY patch for compcache
+  * Boot logo by matt_stang
+  * Dalvik update
+  * Bring back "fancy" orientation animation
+  * Various other fixes I am too brain damaged to remember
+  * KNOWN BUG- accidentally re-introduced the contacts scroll bug, will fix for next version
+
+* v3.9.7
+  * It actually will boot again on all devices now 
+  * Fixed Settings FC
+  * Fixed Maps issues
+  * Fixed lockscreen low battery message
+  * Fixed other bugs..?!
+  * Updated MMS enhancements from rgv151
+  * Added some logging to the a2sd startup
+
+* v3.9.6
+  * This version might not boot on your phone - will be fixed soon
+  * The battery meter from the lock screen is removed. It actually eats a ton of battery
+  * Changed io scheduler to CFQ (Google made this the default in their tree, and it works much better now that we have cgroups)
+  * Enabled some kernel options needed for VPN
+  * Tons of updates from the new Donut drop
+  * VPN & WPA-Enterprise should be fully working in this build, use browser to import certificates
+  * Scaling defaults to 245/528 with powersave_bias at 200
+  * Updated MMS enhancements from rgv151
+  * Compcache 0.6 - this requires use of the rzscontrol tool - your compcache scripts won't work anymore
+  * Hmmmmm..
+
+* v3.9.5
+  * Ported "app fuel gauge" from Donut (about phone->battery use)
+  * Updated Webkit library and a few browser tweaks from Donut
+  * Ability to create shortcuts to settings panel
+  * Fixed terminal emulator
+  * Revert wifi driver and wpa_supplicant (seems to be issues with these)
+  * Updated MMS enhancements from rgv151
+
+* v3.9.4
+  * Fix all issues with video (YouTube/Camcorder/etc)
+  * Fix userinit.sh issue
+  * Email client from Donut
+  * Added ImProvider to template
+
+* v3.9.3
+  * FLAC support from Kruton (buy this man a beer)
+  * Updated Advanced Launcher from Rogro82 & Irrenhaus
+  * MMS enhancements from rgv151
+  * PPTP/L2TP VPN support backported from Donut
+  * WPA-Enterprise support backported from Donut
+  * Ability to add dialer and MMS shortcuts
+  * Updated getcyan script from beast.in.black
+  * Fixed up the power widget
+  * Updated kernel- should be much faster and should also charge faster! Let me know how this goes!
+  * Updated Busybox- modprobe works now!
+  * Alarm clock "bug" fixed, and turned into a "feature" 
+  * Browser enhancements from Donut (thumbnail tabs, yay)
+  * OpenOBEX commandline tools ported by Erin Yueh - just need an app to run them! 
+  * Rebuilt the whole thing with GCC-4.4
+  * Removed Sherpa since it's on the Market now
+  * Made startup use "source" instead of executing userinit.sh directly - this could cause problems for some people. If you system doesn't boot, rename your userinit and check it for errors. I will probably revert this behavior.
+  * KNOWN ISSUE: video is buggy / broken. Will fix in next build.
+  * You really expect me to remember the rest?!
+
+* v3.9.2
+  * Fix the ^#$#%$^ cpu frequency scaling (wtf wtf)
+  * Updated Advanced Launcher from rogro82/irrenhaus
+  * Updated Phone patch from cytown
+  * Updated getcyan script from beast.in.black
+  * Status bar now shows headphone state
+  * Enabled additional iptables modules for DroidWall
+  * Fixed GPS toggle on power widget
+  * Alarm still requires screen unlock, forgot about this. Next build.
+
+* v3.9.1
+  * "Advanced Launcher" by Rogro82 and Irrenhaus - work in progress!
+  * New kernel 2.6.29.6 & updated wifi driver
+  * Power widget from Donut (GPS toggle broken, will be fixed in 3.9.2)
+  * Dalvik VM from Donut
+  * Lots of performance related patches (thread priority, cgroups, etc) from Donut
+  * Less-obnoxious media scanner from Donut
+  * Various other fixes from Donut
+  * Send-on-enter patch for Mms (from rgv151)
+  * Vibrate when phone goes on/off hook, plus optional periodic vibrate (from cytown)
+  * Tweaked boot glow (Ashley)
+  * Possible fix for in-call volume issues
+  * getcyan script (from beast.in.black)
+  * UNTESTED: ad-hoc wifi support, usb ethernet support
+  * KNOWN ISSUE: Alarm clock dismiss/snooze panel requires screen to be unlocked
+  * More shit I forgot about again..
+
+* v3.9
+  * Rogro82's Launcher with some tweaks - this is a big work in progress!!
+  * New compression scheme for all apps should speed things up
+  * Lots of patches from AOSP master
+  * Huge APN list
+  * Got rid of SystemUpdater and the shady HtcLog app
+  * Sherpa 
+  * CGroups tuning
+  * Minor theme tweaks
+  * Updated Google Maps 3.1.2
+  * Included android-log-collector for debugging
+  * More shit I can't remember
