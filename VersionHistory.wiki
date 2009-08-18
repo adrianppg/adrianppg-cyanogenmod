@@ -8,7 +8,7 @@ The experimental rom is for those people who would like to help the project by b
 
 = Details =
 
- * STABLE
+==STABLE==
 
 * Changes in v4.0.1
   * Fixed resource id mismatches that were causing FCs
