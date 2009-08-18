@@ -141,7 +141,7 @@
   * Settings app has been enhanced to show "SD Card Secondary" storage available/used (your ext partition)
   * Included newest Google Maps application
   * Don't mess with vfs_cache_pressure (sysctl.conf is still available, though)
-  * There is an issue with installing protected apps in this version. Will be fixed for 3.4.4.
+  * There is an issue with installing protected apps in this version. Will be fixed for 3.4.4
  
 * Changes in v3.4.2
   * Switch back to anticipatory iosched
