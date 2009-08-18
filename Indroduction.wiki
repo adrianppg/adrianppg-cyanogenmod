@@ -1,4 +1,4 @@
-#summary Custom ROM based on Android 1.5r3
+#summary What is CyanogenMod
 
 = Introduction =
 
