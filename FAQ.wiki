@@ -5,7 +5,7 @@
 I will try to include commonly asked questions here.
 
 
-I used to have 2-10 desktops, and could change them, and also hide apps in the menu. What happened.
+*I used to have 2-10 desktops, and could change them, and also hide apps in the menu. What happened.*
 
 The advanced launcher has been removed from CyanogenMod. The module is still available and still active, and can still be installed on CyanogenMod.
 
