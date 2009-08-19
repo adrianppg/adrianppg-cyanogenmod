@@ -5,9 +5,13 @@
 I will try to include commonly asked questions here.
 
 
-*I used to have 2-10 desktops, and could change them, and also hide apps in the menu. What happened.*
+*I used to have 2-10 desktops, and could change them, and also hide apps in the menu. What happened?*
 
 The advanced launcher has been removed from CyanogenMod. The module is still available and still active, and can still be installed on CyanogenMod.
 
 Please refer to this thread
 http://forum.xda-developers.com/showthread.php?t=540880
+
+*Can you please include this app or that theme?*
+
+Sorry, but CyanogenMod is focused on speed, followed by functionality from the core system (eg stuff that can't be added on easily) and then stability.
