@@ -3,11 +3,15 @@ Follow the steps [http://source.android.com/download here] to set up repo for yo
 
 =Setting Up=
 Create an empty directory to hold your working files:
+{{{
 $ mkdir mydroid
 $ cd mydroid
+}}}
 
 Run repo init to bring down the 1.5r3 source. You must specify a URL for the manifest:
+{{{
 $ repo init -u git://android.git.kernel.org/platform/manifest.git -b android-1.5r3
+}}}
 
 Go to cyanogen's github page and download local_manifest-4.0.xml
 http://github.com/cyanogen/android/downloads
@@ -15,10 +19,14 @@ http://github.com/cyanogen/android/downloads
 Place it in the .repo folder in the mydroid folder you created earlier and rename it local_manifest.xml
 
 Run:
+{{{
 $ repo sync
+}}}
 
 =Building=
+{{{
 $ . build/envsetup.sh # notice the leading dot
 $ lunch generic-eng
 $ make
 $ emulator& 
+}}}
