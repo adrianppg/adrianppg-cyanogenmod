@@ -60,7 +60,7 @@
  You have settings left over from the old Android camera. Just go into the Camera, hit menu, settings, then "reset to defaults".
 
 20. My auto-rotate/accelerometer isn't working!
- Not really the fault of the ROM, but here's how to fix it: Go into recovery, drop to console, "mount /data", then "rm /data/misc/akmd* /data/misc/rild*" and reboot.
+ Not really the fault of the ROM, but here's how to fix it: Go into recovery, drop to console, "mount /data", then "rm /data/misc/akmd`*` /data/misc/rild`*`" and reboot.
 
 21. What about swap space?
  As of 4.0, Compcache is activated by default unless a userinit.sh script is present. Search the forums for information on how to create a userinit.sh to activate swap.
