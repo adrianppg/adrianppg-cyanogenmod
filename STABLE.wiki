@@ -2,6 +2,36 @@
 
 ==STABLE==
 
+* Changes in v4.0.4
+  * Fixed settings FC
+  *  Process scheduling group code from Donut
+  * Another possible fix for the phone number parsing issue
+  * Added bash in xbin
+  * Changed alarm clock timeout to 30 minutes because I sleep thru the 10 minute timeout
+  * Kernel tweaks
+
+* Changes in v4.0.3.1
+  * Fixed kernel misconfiguration that broke the camera and prevented booting on some devices
+
+* Changes in v4.0.3
+  * More Donut guts: Bluetooth and audio updates
+  * Fixed swap-free-notify for compcache
+  * Tweaked kernel (trying out SLQB)
+  * Lots of small stuff recently added to AOSP
+  * Possible fix for the phone number parsing issue
+  * And of course more stuff I forgot..
+
+* Changes in v4.0.2
+  * Possible fix for the "slow ring display" issue (from itp)
+  * More Donut guts (mainly graphics/display code)
+  * Turned off debug in the Mms app (rgv)
+  * Fix for a few security issues
+  * Modified cgroups a bit, should improve responsiveness
+  * Vibrate-every-45 is off by default now
+  * Added the dropbear SSH server into xbin
+  * Dalvik update
+  * Other things
+
 * Changes in v4.0.1
   * Fixed resource id mismatches that were causing FCs
   * Revert a Dalvik change that caused FCs
