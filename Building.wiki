@@ -13,6 +13,11 @@ Run repo init to bring down the 1.5r3 source. You must specify a URL for the man
 $ repo init -u git://android.git.kernel.org/platform/manifest.git -b android-1.5r3
 }}}
 
+Run:
+{{{
+$ repo sync
+}}}
+
 Go to cyanogen's github page and download local_manifest-4.0.xml
 http://github.com/cyanogen/android/downloads
 
