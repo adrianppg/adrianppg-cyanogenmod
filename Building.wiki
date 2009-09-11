@@ -1,4 +1,4 @@
-=Building CyanogenMod for the Android Emulator=
+=Building !CyanogenMod for the Android Emulator=
 ==Getting repo==
 Follow the steps [http://source.android.com/download here] to set up repo for your system
 
@@ -37,7 +37,7 @@ $ make
 $ emulator& 
 }}}
 
-=Building CyanogenMod for the HTC Dream=
+=Building !CyanogenMod for the HTC Dream=
 
 ==Getting repo==
 Follow the steps [http://source.android.com/download here] to set up repo for your system
