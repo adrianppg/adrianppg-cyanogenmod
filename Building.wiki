@@ -1,7 +1,8 @@
-=Getting repo=
+=Building CyanogenMod for the Android Emulator=
+==Getting repo==
 Follow the steps [http://source.android.com/download here] to set up repo for your system
 
-=Setting Up=
+==Setting Up==
 Create an empty directory to hold your working files:
 {{{
 $ mkdir mydroid
@@ -28,10 +29,62 @@ Run:
 $ repo sync
 }}}
 
-=Building=
+==Building==
 {{{
 $ . build/envsetup.sh # notice the leading dot
 $ lunch generic-eng
 $ make
 $ emulator& 
 }}}
+
+=Building CyanogenMod for the HTC Dream=
+
+==Getting repo==
+Follow the steps [http://source.android.com/download here] to set up repo for your system
+
+==Setting Up==
+  #. Create an empty directory to hold your working files.
+    {{{
+    $ mkdir source
+    $ cd source
+    }}}
+  #. Initialize repo to with the 1.5r3 manifest.
+    {{{
+    $ repo init -u git://android.git.kernel.org/platform/manifest.git -b android-1.5r3
+    }}}
+  #. Download [http://abstrakraft.org/android/local_manifest.xml local_manifest.xml].
+    {{{
+    $ cd .repo
+    $ wget http://abstrakraft.org/android/local_manifest.xml
+    $ cd ..
+    }}}
+
+==Downloading the Code==
+  #. Sync the repository.  This step may take awhile.
+    {{{
+    $ repo sync
+    }}}
+
+==Download Proprietary Code==
+  #. Plug your G1 via USB.
+  #. Download the HTC G1 proprietary files.
+    {{{
+    $ cd vendor/htc/dream-open
+    $ ./extract-files.sh
+    }}}
+  
+
+==Building==
+  #. Setup the environment.
+    {{{
+    $ source build/envsetup.sh
+    $ lunch htc_dream-eng
+    $ export ANDROID_JAVA_HOME=$JAVA_HOME
+    }}}
+  #. Compile
+    {{{
+    $ make
+    }}}
+
+==Current Issues==
+This process does not yet build cm-kernel, and has not yet been tested on a device.
