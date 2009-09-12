@@ -36,12 +36,16 @@ Follow the steps [http://source.android.com/download here] to set up repo for yo
     {{{
     $ source build/envsetup.sh
     $ lunch <target>
-    $ export ANDROID_JAVA_HOME=$JAVA_HOME
     }}}
   #. Compile
     {{{
     $ make
     }}}
+  #. If make errors with a message like "No rule to make target `run-java-tool'", execute the following command.
+    {{{
+    $ export ANDROID_JAVA_HOME=$JAVA_HOME
+    }}}
+    Explanation: Some distributions' java executables are symlinks to run-java-tool, which is generally a script that determines the appropriate jvm and tool to use.  Unfortunately, this interrupts Android's ability to determine the proper Java home directory, so it must be set manually.
 
 ==Current Issues==
 This process does not yet build cm-kernel, and has not yet been tested on a device.
