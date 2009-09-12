@@ -29,10 +29,10 @@ Follow the steps [http://source.android.com/download here] to set up repo for yo
     }}}
 
 ==Building==
-  #. Choose from the following targets supported by this build process:
+  #. Targets supported by this build process are:
     * htc_dream-eng
     * generic-eng
-  #. Setup the environment.
+  #. Setup the environment.  Replace `<target>` with a target from the list above.
     {{{
     $ source build/envsetup.sh
     $ lunch <target>
