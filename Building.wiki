@@ -1,43 +1,4 @@
-=Building !CyanogenMod for the Android Emulator=
-==Getting repo==
-Follow the steps [http://source.android.com/download here] to set up repo for your system
-
-==Setting Up==
-Create an empty directory to hold your working files:
-{{{
-$ mkdir mydroid
-$ cd mydroid
-}}}
-
-Run repo init to bring down the 1.5r3 source. You must specify a URL for the manifest:
-{{{
-$ repo init -u git://android.git.kernel.org/platform/manifest.git -b android-1.5r3
-}}}
-
-Run:
-{{{
-$ repo sync
-}}}
-
-Go to cyanogen's github page and download local_manifest-4.0.xml
-http://github.com/cyanogen/android/downloads
-
-Place it in the .repo folder in the mydroid folder you created earlier and rename it local_manifest.xml
-
-Run:
-{{{
-$ repo sync
-}}}
-
-==Building==
-{{{
-$ . build/envsetup.sh # notice the leading dot
-$ lunch generic-eng
-$ make
-$ emulator& 
-}}}
-
-=Building !CyanogenMod for the HTC Dream=
+=Building !CyanogenMod Stable=
 
 ==Getting repo==
 Follow the steps [http://source.android.com/download here] to set up repo for your system
@@ -48,15 +9,9 @@ Follow the steps [http://source.android.com/download here] to set up repo for yo
     $ mkdir source
     $ cd source
     }}}
-  #. Initialize repo to with the 1.5r3 manifest.
+  #. Initialize repo.
     {{{
-    $ repo init -u git://android.git.kernel.org/platform/manifest.git -b android-1.5r3
-    }}}
-  #. Download [http://abstrakraft.org/android/local_manifest.xml local_manifest.xml].
-    {{{
-    $ cd .repo
-    $ wget http://abstrakraft.org/android/local_manifest.xml
-    $ cd ..
+    $ repo init -u git://github.com/abstrakraft/android-manifest.git
     }}}
 
 ==Downloading the Code==
@@ -65,20 +20,22 @@ Follow the steps [http://source.android.com/download here] to set up repo for yo
     $ repo sync
     }}}
 
-==Download Proprietary Code==
-  #. Plug your G1 via USB.
+===HTC Dream Only: Download Proprietary Code===
+  #. Plug your G1 in via USB.
   #. Download the HTC G1 proprietary files.
     {{{
     $ cd vendor/htc/dream-open
     $ ./extract-files.sh
     }}}
-  
 
 ==Building==
+  #. Choose from the following targets supported by this build process:
+    * htc_dream-eng
+    * generic-eng
   #. Setup the environment.
     {{{
     $ source build/envsetup.sh
-    $ lunch htc_dream-eng
+    $ lunch <target>
     $ export ANDROID_JAVA_HOME=$JAVA_HOME
     }}}
   #. Compile
