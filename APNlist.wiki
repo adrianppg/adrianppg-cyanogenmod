@@ -4,7 +4,18 @@
 
 Post a comment if you need an apn added or corrected.
 
-= Details =
+ Add in 4.1.9
+{{{
+<apn carrier="kpn" apn="internet" type="default" user="" pass="" />
+<apn carrier="Vlive!" apn="vlive" proxy="196.006.128.012" port="8080" mmsc="null" mcc="655" mnc="01" type="default"/>
+<apn carrier="Vlive!MMS" apn="mms.vodacom.net" mmsc="http://mmsc.vodacom4me.co.za" mmsproxy="196.006.128.013" mmsport="8080" mcc="655" mnc="01" type="mms"/>
+<apn carrier="TIM" apn="ibox.tim.it" user="*" password="*" server="*" type="default"/>
+<apn carrier="Wind WEB" mcc="222" mnc="10" apn="internet.wind" user="none" password="none" server="*" mmsproxy="" mmsport="" mmsc="" />
+<apn carrier="Wind MMS" mcc="222" mnc="88" apn="mms.wind.it" user="none" password="none" server="*" mmsproxy="212.245.244.011" mmsport="8080" mmsc="http://mms.wind.it" type="mms" />
+<apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" msproxy="212.183.137.12" mmsport="8799"/>
+}}}
+
+ Version 4.1.8
 
 {{{
 <apns version="6">
