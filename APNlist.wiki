@@ -4,7 +4,7 @@
 
 Post a comment if you need an apn added or corrected.
 
- Add in 4.1.9
+Add in 4.1.9
 {{{
 <apn carrier="kpn" apn="internet" type="default" user="" pass="" />
 <apn carrier="Vlive!" apn="vlive" proxy="196.006.128.012" port="8080" mmsc="null" mcc="655" mnc="01" type="default"/>
@@ -15,7 +15,7 @@ Post a comment if you need an apn added or corrected.
 <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" msproxy="212.183.137.12" mmsport="8799"/>
 }}}
 
- Version 4.1.8
+Version 4.1.8
 
 {{{
 <apns version="6">
