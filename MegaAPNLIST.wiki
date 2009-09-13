@@ -1,1 +1,0 @@
-#summary This will contain a recent list of APNs for the cyanogen build
