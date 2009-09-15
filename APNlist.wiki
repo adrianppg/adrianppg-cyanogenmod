@@ -52,6 +52,7 @@ Add in next version
   <apn carrier="Ludo MMS" mcc="242" mnc="01" apn="mms.ventelo.no" user="ventelo" server="" password="1111" mmsproxy="10.10.10.11" mmsport="8080" mmsc="http://mmsc/" type="mms" proxy="" port="" />
   <apn carrier="Maxis 2G Internet" apn="net" user="maxis" password="wap" server="" mmsc="" mmsproxy="" mmsport="" mcc="502" mnc="12" type="default"/>
   <apn carrier="Maxis 2G MMS" apn="net" user="maxis" password="wap" server="202.75.133.49" mmsc="http://172.16.74.100:10021/mmsc" mmsproxy="202.75.133.49" mmsport="80" mcc="502" mnc="12" type="mms"/>
+  <apn carrier="Maxis 3G MMS" apn="unet" user="maxis" password="wap" server="202.75.133.49" mmsc="http://172.16.74.100:10021/mmsc" mmsproxy="202.75.133.49" mmsport="80" mcc="502" mnc="12" type="mms"/>
   <apn carrier="Maxis 3G Internet" apn="unet" user="maxis" password="wap" server="" mmsc="" mmsproxy="" mmsport="" mcc="502" mnc="12" type="default"/>
   <apn carrier="Mobitalk Internet" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="" mmsport="" mmsc="" type="default" proxy="10.10.10.10" port="8080" />
   <apn carrier="Mobitalk MMS" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="10.10.10.11" mmsport="8080" mmsc="http://mmsc/" type="mms" proxy="" port="" />
@@ -256,7 +257,7 @@ Changes added (15/9/2009)
 <apn carrier="Maxis 2G Internet" apn="net" user="maxis" password="wap" server="" mmsc="" mmsproxy="" mmsport="" mcc="502" mnc="12" type="default"/> 
 <apn carrier="Maxis 3G Internet" apn="unet" user="maxis" password="wap" server="" mmsc="" mmsproxy="" mmsport="" mcc="502" mnc="12" type="default"/> 
 <apn carrier="Maxis 2G MMS" apn="net" user="maxis" password="wap" server="202.75.133.49" mmsc="http://172.16.74.100:10021/mmsc" mmsproxy="202.75.133.49" mmsport="80" mcc="502" mnc="12" type="mms"/> 
-<apn carrier="Maxis 2G MMS" apn="unet" user="maxis" password="wap" server="202.75.133.49" mmsc="http://172.16.74.100:10021/mmsc" mmsproxy="202.75.133.49" mmsport="80" mcc="502" mnc="12" type="mms"/>
+<apn carrier="Maxis 3G MMS" apn="unet" user="maxis" password="wap" server="202.75.133.49" mmsc="http://172.16.74.100:10021/mmsc" mmsproxy="202.75.133.49" mmsport="80" mcc="502" mnc="12" type="mms"/>
 <apn carrier="Telenor" apn="telenor" user="dj" password="dj" mmsc="http://mmsc/" mmscproxy="10.10.10.11" mmsport="8080" mcc="242" mnc="01"/>
 <apn carrier="Telenor Internet" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="" mmsport="" mmsc="" type="default" proxy="10.10.10.10" port="8080" />
 <apn carrier="Telenor MMS" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="10.10.10.11" mmsport="8080" mmsc="~http://mmsc/" type="mms" proxy="" port="" />
@@ -281,4 +282,3 @@ Changes added (15/9/2009)
 <apn carrier="Telipol Internet" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="default" proxy="" port="" />
 <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port="" />
 }}}
-
