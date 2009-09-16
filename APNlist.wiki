@@ -67,7 +67,6 @@ Add in next version
   <apn carrier="Optus MMS" apn="mms" proxy="202.139.83.152" port="8070" user="*" password="*" server="*" mmsc="http://mmsc.optus.com.au:8002/" mmsproxy="61.88.190.10" mmsport="8070" mcc="505" mnc="02" type="mms"/>
   <apn carrier="Orange MMS" mcc="208" mnc="01" apn="orange.acte" user="orange" password="orange" server="*" mmsproxy="192.168.010.200" mmsport="8080" mmsc="http://mms.orange.fr" type="mms"/>
   <apn carrier="Orange World" mcc="208" mnc="01" apn="orange" user="orange" password="orange" server="*" type="default"/>
-  <apn carrier="Rogers MMS" apn="media.com" user="media" password="mda01" server="172.25.0.107" mmsc="http://mms.gprs.rogers.com" type="mms"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="720" />
   <apn carrier="SFR MMS" mcc="208" mnc="10" apn="mmssfr" proxy="10.151.0.1" port="8080" user="none" server="*" password="none" mmsc="http://mms1" type="mms"/>
   <apn carrier="SFR NET" mcc="208" mnc="10" apn="wapsfr" proxy="195.115.25.129" port="8080" user="none" server="*" password="none" type="default"/>
@@ -235,14 +234,29 @@ Current file
   <apn carrier="Wind WEB" mcc="222" mnc="10" apn="internet.wind" user="none" password="none" server="*" mmsproxy="" mmsport="" mmsc="" />
   <apn carrier="Wind MMS" mcc="222" mnc="88" apn="mms.wind.it" user="none" password="none" server="*" mmsproxy="212.245.244.011" mmsport="8080" mmsc="http://mms.wind.it" type="mms" />
   <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" mmsproxy="212.183.137.12" mmsport="8799"/>
-
+  <apn carrier="Yesss" apn="web.yesss.at" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="232" mnc="12" type="default"/>
 </apns>
 
 }}}
 
 
-Changes added (15/9/2009)
+Changed (17/9/2009)
 
+added
+{{{
+
+  <apn carrier="Yesss" apn="web.yesss.at" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="232" mnc="12" type="default"/>
+
+}}}
+
+removed
+{{{
+  <apn carrier="Rogers MMS" apn="media.com" user="media" password="mda01" server="172.25.0.107" mmsc="http://mms.gprs.rogers.com" type="mms"/>
+}}}
+
+
+Changes (15/9/2009)
+added
 {{{
   <apn carrier="3 Sverige" apn="data.tre.se" mcc="240" mnc="02" type="default"/>
   <apn carrier="3mms" apn="data.tre.se" mmsc="http://mms.tre.se" mmsproxy="mmsproxy.tre.se" mmsport="8799" mcc="240" mnc="02" type="mms"/>
