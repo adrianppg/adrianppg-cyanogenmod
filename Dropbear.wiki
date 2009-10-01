@@ -1,3 +1,5 @@
+#summary Howto: Connect and login to your Android with ssh
+
 =Connect and login to your Android with ssh=
 
 This short article explains how to connect to your android phone
