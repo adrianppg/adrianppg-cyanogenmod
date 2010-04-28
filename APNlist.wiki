@@ -27,7 +27,7 @@ From CM github 2010-04-28 :
   <apn carrier="ATT" apn="wap.cingular" user="WAP@CINGULARGPRS.COM" pass="CINGULAR1" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" mcc="310" mnc="410"/>
   <apn carrier="BASE Belgium" apn="gprs.base.be" proxy="" port="" user="base" password="base" server="" mmsc="" mmsproxy="" mmsport="" mcc="206" mnc="20" type=""/>
   <apn carrier="BASE MMS Belgium" apn="mms.base.be" proxy="" port="" user="base" password="base" server="" mmsc="http://mmsc.base.be" mmsproxy="217.72.235.1" mmsport="8080" mcc="206" mnc="20" type="mms"/>
-  <apn carrier="Bell" mcc="302" mnc="610" apn="pda.bell.ca" proxy="web.wireless.bell.ca" mmsproxy="web.wireless.bell.ca" mmsport="80" mmsc="http://mms.bell.ca/mms/wapenc" type="default,mms"/>
+  <apn carrier="Bell" mcc="302" mnc="610" apn="pda.bell.ca" proxy="web.wireless.bell.ca" mmsproxy="web.wireless.bell.ca" mmsport="80" mmsc="http://mms.bell.ca/mms/wapenc" type="default, mm"/>
   <apn carrier="Bibob internet DK" apn="internet.bibob.dk" proxy="" port="8080" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="238" mnc="02" type=""/>
   <apn carrier="Bibob MMS DK" apn="mms.bibob.dk" proxy="212.88.64.8" port="8080" user="" password="" server="" mmsc="http://mms.telenor.dk" mmsproxy="" mmsport="8080" mcc="238" mnc="02" type="mms"/>
   <apn carrier="Bob" mcc="232" mnc="11" apn="bob.at" user="data@bob.at" password="ppp" server="http://start.bob.at/" type="default,supl"/>
