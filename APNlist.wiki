@@ -284,8 +284,9 @@ From CM github 2010-04-28 :
   <apn carrier="Vodafone PT" apn="net2.vodafone.pt" server="*" mcc="268" mnc="01" type="default,supl"/>
   <apn carrier="Vodafone PT-MMS" apn="vas.vodafone.pt" proxy="" port="" user="vas" password="vas" server="*" mmsc="http://mms/servlets/mms" mmsproxy="213.30.27.63" mmsport="8799" mcc="268" mnc="01" type="mms"/>
   <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" mmsproxy="212.183.137.12" mmsport="8799"/>
-  <apn carrier="Wind MMS" mcc="222" mnc="88" apn="mms.wind" user="" password="" server="" mmsproxy="212.245.244.011" mmsport="8080" mmsc="http://mms.wind.it" type="mms"/>
-  <apn carrier="Wind WEB" mcc="222" mnc="88" apn="internet.wind" user="" password="" server="" mmsproxy="" mmsport="" mmsc=""/>
+  <apn carrier="Wind CA WEB" mcc="302" mnc="490" apn="internet.windmobile.ca" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Wind IT MMS" mcc="222" mnc="88" apn="mms.wind" user="" password="" server="" mmsproxy="212.245.244.011" mmsport="8080" mmsc="http://mms.wind.it" type="mms"/>
+  <apn carrier="Wind IT WEB" mcc="222" mnc="88" apn="internet.wind" user="" password="" server="" mmsproxy="" mmsport="" mmsc=""/>
   <apn carrier="Yesss" apn="web.yesss.at" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="232" mnc="12" type="default,supl" />
   <apn carrier="Yesss" mcc="232" mnc="12" apn="web.yesss.at"/>
   <apn carrier="Yoigo" mcc="214" mnc="04" apn="internet" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="" proxy="010.008.000.036" port="8080"/>
