@@ -205,7 +205,7 @@ From CM github 2010-04-28 :
   <apn carrier="Telkomsel Internet" apn="internet" type="" user="wap" pass="wap123" mcc="510" mnc="10"/>
   <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port=""/>
   <apn carrier="Telstra 3G Pay by Time" apn="telstra.pcpack" password="telstra" mcc="505" mnc="01"/>
-  <apn carrier="Telstra GPRS" apn="telstra.internet" user="*" password="*" server="*" mcc="505" mnc="01"/>
+  <apn carrier="Telstra w/ Portal" apn="telstra.internet" mcc="505" mnc="01" proxy="10.1.1.181" port="80" user="" password="" mmsc="http://mmsc.telstra.com:8002" mmsproxy="10.1.1.181" mmsport="80"/>
   <apn carrier="Telus SP" mcc="302" mnc="220" apn="sp.telus.com" proxy="74.49.0.18" port="80" mmsc="http://aliasredirect.net/proxy/mmsc" mmsproxy="74.49.0.18" mmsport="80" mmsprotocol="WAP 2.0"/>
   <apn carrier="Tesco" apn="prepay.tesco-mobile.com" mcc="234" mnc="10" proxy="193.113.200.195" port="8080" user="tescowap" password="tescowap" mmsc="http://mmsc.mms.02.co.uk:8002" mmsproxy="193.113.200.195" mmsport="8080"/>
   <apn carrier="Tesco UK" mcc="425" mnc="01" apn="prepay.tesco-mobile.com" user="tescowap" server="http://wap.tesco-mobile.com/" password="password" proxy="193.113.200.195" port="9201" mmsproxy="" mmsport="" mmsc="" type=""/>
