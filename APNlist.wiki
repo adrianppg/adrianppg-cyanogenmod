@@ -5,7 +5,7 @@
 Post a comment if you need an apn added or corrected.
 Your comment will be deleted once the APN is merged. Please post additions/corrections in full XML as shown. 
 
-From CM github 2010-04-28 :
+newer than cm github :
 
 {{{
 <!-- use empty string to specify no proxy or port -->
