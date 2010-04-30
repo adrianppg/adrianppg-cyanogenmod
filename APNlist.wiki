@@ -168,7 +168,7 @@ From CM github 2010-04-28 :
   <apn carrier="Play MMS" mcc="260" mnc="06" apn="mms" mmsc="http://10.10.28.164/mms/wapenc" mmsproxy="10.10.25.5" mmsport="8080" type="mms"/>
   <apn carrier="PlusGSM" numeric="26001" mcc="260" mnc="01" apn="www.plusgsm.pl" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default" />
   <apn carrier="PlusGSM MMS" numeric="26001" mcc="260" mnc="01" apn="mms.plusgsm.pl" user="" server="" password="" proxy="" port="" mmsproxy="212.002.096.016" mmsport="8080" mmsprotocol="null" mmsc="http://mms.plusgsm.pl:8002" type="mms" />
-  <apn carrier="Porta EC" "internet.porta.com.ec" mcc="740" mnc="010" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
+  <apn carrier="Porta EC" apn="internet.porta.com.ec" mcc="740" mnc="010" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
   <apn carrier="Proximus Internet" name="Px Internet" apn="internet.proximus.be" mcc="206" mnc="01" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
   <apn carrier="Proximus MMS" name="Px MMS" apn="event.proximus.be" mcc="206" mnc="01" user="mms" server="" password="mms" proxy="" port="" mmsproxy="10.55.14.75" mmsport="8080" mmsprotocol="" mmsc="http://mmsc.proximus.be/mms" type="mms"/>
   <apn carrier="RCOM" apn="rcomnet" mcc="404" mnc="013" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
