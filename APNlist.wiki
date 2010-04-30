@@ -220,7 +220,7 @@ From CM github 2010-04-28 :
   <apn carrier="Softbank(smile.world)" apn="smile.world" user="dna1trop" password="so2t3k3m2a" mcc="440" mnc="20" mmsc="http://mms/" mmsproxy="smilemms.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Softbank(open)" apn="open.softbank.ne.jp" user="open" password="ebMNuX1FIHg9d3DA" mcc="440" mnc="20" mmsc="http://mms/" mmsproxy="sbmmsproxy.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Sonofon" mcc="238" mnc="02" apn="internet" user="" server="" password="" mmsc="" type="default"/>
-    <apn carrier="Sonofon MMS" mcc="238" mnc="02" apn="sonofon" user="sonofon" server="" password="sonofon" mmsc="http://mms.sonofon.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms"/>
+  <apn carrier="Sonofon MMS" mcc="238" mnc="02" apn="sonofon" user="sonofon" server="" password="sonofon" mmsc="http://mms.sonofon.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms"/>
   <apn carrier="Sunrise Internet" mcc="228" mnc="02" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port="" type="default"/>
   <apn carrier="Sunrise MMS" mcc="228" mnc="02" apn="mms.sunrise.ch" user="mms" server="" password="mms" mmsproxy="212.35.34.75" mmsport="8080" mmsc=" http://mmsc.sunrise.ch" proxy="" port="" type="mms"/>
   <apn carrier="Sunsurf Internet" numeric="52503" mcc="525" mnc="03" apn="sunsurf" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc=""/>
@@ -283,7 +283,7 @@ From CM github 2010-04-28 :
   <apn carrier="T-Mobile HU" apn="wnw" user="" password="" server="" mmsc="http://mms.t-mobile.hu/servlets/mms" mmsproxy="212.51.126.10" mmsport="8080" mcc="216" mnc="30" type="default,supl"/>
   <apn carrier="T-Mobile HU MMS" apn="mms" user="mms" password="mms" server="" mmsc="http://mms.t-mobile.hu/servlets/mms" mmsproxy="212.51.126.10" mmsport="8080" mcc="216" mnc="30" type="mms"/>
   <apn carrier="T-Mobile HR" mcc="209" mnc="01" apn="web.htgprs" user="" server="" password="" mmsc="" type="default"/>
-    <apn carrier="T-Mobile HR MMS" mcc="209" mnc="01" apn="mms.htgprs" user="" server="" password="" mmsc="http://mms.t-mobile.hr/servlets/mms" mmsproxy="10.12.0.4" mmsport="8080" type="mms"/>
+  <apn carrier="T-Mobile HR MMS" mcc="209" mnc="01" apn="mms.htgprs" user="" server="" password="" mmsc="http://mms.t-mobile.hr/servlets/mms" mmsproxy="10.12.0.4" mmsport="8080" type="mms"/>
   <apn carrier="T-Mobile NL" mcc="204" mnc="16" apn="smartsites.t-mobile" user="*" password="*" server="*" mmsproxy="010.010.010.011" mmsport="8080" mmsc="http://t-mobilemms" type="default,supl"/>
   <apn carrier="T-Mobile NL-MMS" mcc="204" mnc="16" apn="mms" user="tmobilemms" password="tmobilemms" server="*" mmsproxy="010.010.010.011" mmsport="8080" mmsc="http://t-mobilemms" type="mms"/>
   <apn carrier="T-Mobile UK" mcc="234" mnc="30" apn="general.t-mobile.uk" user="t-mobile" password="tm" server="*" mmsproxy="149.254.201.135" mmsport="8080" mmsc="http://mmsc.t-mobile.co.uk:8002"/>
