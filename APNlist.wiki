@@ -851,7 +851,6 @@ From CM github 2010-04-28 :
   <apn carrier="Wind IT MMS" mcc="222" mnc="88" apn="mms.wind" user="" password="" server="" mmsproxy="212.245.244.011" mmsport="8080" mmsc="http://mms.wind.it" type="mms"/>
   <apn carrier="Wind IT WEB" mcc="222" mnc="88" apn="internet.wind" user="" password="" server="" mmsproxy="" mmsport="" mmsc=""/>
   <apn carrier="Yesss" apn="web.yesss.at" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="232" mnc="12" type="default,supl" />
-  <apn carrier="Yesss" mcc="232" mnc="12" apn="web.yesss.at"/>
   <apn carrier="Yoigo" mcc="214" mnc="04" apn="internet" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="" proxy="010.008.000.036" port="8080"/>
   <apn carrier="Yoigo MMS" mcc="214" mnc="04" apn="mms" user="" server="" password="" mmsproxy="93.209.134.141" mmsport="80" mmsc="http://mmss" type="mms" proxy="93.209.134.141" port="80"/>
   <apn carrier="Zain" mcc="420" mnc="04" apn="zain" user="" server="" password="" mmsc="http://10.122.200.12:8002" mmsproxy="10.122.200.10" mmsport="8080" type="default,mms"/>
