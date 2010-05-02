@@ -100,7 +100,7 @@ From CM github 2010-04-28 :
   <apn carrier="Amazonia GPRS" numeric="72424" mcc="724" mnc="24" apn="gprs.amazoniacelular.com.br" user="celular" server="" password="celular" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
   <apn carrier="Amazonia MMS" numeric="72424" mcc="724" mnc="24" apn="mmsgprs.amazoniacelular.com.br" user="celular" server="" password="celular" proxy="" port="" mmsproxy="200.192.230.142" mmsport="8080" mmsprotocol="" mmsc="http://mms.amazoniacelular.com.br" type="mms" />
   <apn carrier="ATT" apn="wap.cingular" user="WAP@CINGULARGPRS.COM" pass="CINGULAR1" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" mcc="310" mnc="410"/>
-<apn carrier="AVEA" mcc="286" mnc="03" apn="internet" user="wap" server="" password="wap" mmsc="" type="default"/>
+  <apn carrier="AVEA" mcc="286" mnc="03" apn="internet" user="wap" server="" password="wap" mmsc="" type="default"/>
   <apn carrier="AVEA MMS" mcc="286" mnc="03" apn="mms" user="mms" server="" password="mms" mmsc="http://mms.avea.com.tr/servlets/mms" mmsproxy="213.161.151.201" mmsport="8080" type="mms"/>
   <apn carrier="BASE Belgium" apn="gprs.base.be" proxy="" port="" user="base" password="base" server="" mmsc="" mmsproxy="" mmsport="" mcc="206" mnc="20" type=""/>
   <apn carrier="BASE MMS Belgium" apn="mms.base.be" proxy="" port="" user="base" password="base" server="" mmsc="http://mmsc.base.be" mmsproxy="217.72.235.1" mmsport="8080" mcc="206" mnc="20" type="mms"/>
@@ -432,7 +432,7 @@ From CM github 2010-04-28 :
   <apn carrier="Orange NL MMS" mcc="204" mnc="20" apn="mms" user="" server="" password="" mmsc="http://mms.orange.nl:8002" mmsproxy="10.250.255.183" mmsport="9201" type="mms"/>
   <apn carrier="Orange PL" numeric="26003" mcc="260" mnc="03" apn="internet" user="internet" password="internet" type="default" />
   <apn carrier="Orange PL MMS" numeric="26003" mcc="260" mnc="03" apn="mms" user="mms" password="mms" mmsc="http://mms.orange.pl" mmsproxy="192.168.006.104" mmsport="8080" type="mms" />
-<apn carrier="Orange RE" mcc="647" mnc="00" apn="orangerun" user="orange" server="" password="orange" mmsc="" type="default"/>
+  <apn carrier="Orange RE" mcc="647" mnc="00" apn="orangerun" user="orange" server="" password="orange" mmsc="" type="default"/>
   <apn carrier="Orange RE MMS" mcc="647" mnc="00" apn="orangerun.acte" user="orange" server="" password="orange" mmsc="http://mms.orange.re/" mmsproxy="192.168.010.200" mmsport="8080" type="mms"/>
   <apn carrier="Orange RO" mcc="266" mnc="10" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Orange RO MMS" mcc="266" mnc="10" apn="mms" user="" server="" password="" mmsc="http://wap.mms.orange.ro:8002" mmsproxy="62.217.247.252" mmsport="8799" type="mms"/>
