@@ -11,17 +11,85 @@ From CM github 2010-04-28 :
 <!-- use empty string to specify no proxy or port -->
 <apns version="6">
   <apn carrier="2 degrees mobile" apn="2degrees" proxy="118.148.1.118" port="8080" mcc="530" mnc="24"/>
-  <apn carrier="3" apn="three.co.uk" mmsc="http://mms.um.three.co.uk:10021/mmsc" mmsproxy="mms.three.co.uk" mmsport="8799" mcc="234" mnc="20"/>
-  <apn carrier="3 Denmark" apn="data.tre.dk" mmsc="http://mms.3.dk" mmsproxy="mmsproxy.3.dk" mmsport="8799" mcc="238" mnc="06"/>
-  <apn carrier="3HK" mcc="454" mnc="03" apn="mobile.three.com.hk" user="*" server="*" password="*" mmsc="http://mms.um.three.com.hk:10021/mmsc" mmsproxy="172.20.97.116" mmsport="8799"/>
-  <apn carrier="3mms" apn="data.tre.se" mmsc="http://mms.tre.se" mmsproxy="mmsproxy.tre.se" mmsport="8799" mcc="240" mnc="02" type="mms"/>
-  <apn carrier="3services" apn="3services" mmsc="mmsc.three.net.au:10021/mmsc" mmsproxy="10.176.57.25" mmsport="8799" mcc="505" mnc="06"/>
-  <apn carrier="3 Sverige" apn="data.tre.se" mcc="240" mnc="02" type=""/>
-  <apn carrier="3 ITA internet" apn="tre.it" proxy="" port="" user="" password="" server="" mmsc="http://10.216.59.240:10021/mmsc" mmsproxy="wsb.treumts.it" mmsport="8799" mcc="222" mnc="99" type="" />
-  <apn carrier="3 ITA MMS" apn="tre.it" proxy="" port="" user="" password="" server="" mmsc="http://10.216.59.240:10021/mmsc" mmsproxy="62.13.171.3" mmsport="8799" mcc="310" mnc="410" type="" />
+  <apn carrier="3 AU" apn="3netaccess" mcc="505" mnc="06" type="default,supl"/>
+  <apn carrier="3 AU MMS" apn="3services" mmsc="http://mmsc.three.net.au:10021/mmsc" mmsproxy="mmsprox.three.net.au" mmsport="8799" mcc="505" mnc="06" type="mms"/>
+  <apn carrier="3 DK" apn="data.tre.dk" mmsc="http://mms.3.dk" mmsproxy="mmsproxy.3.dk" mmsport="8799" mcc="238" mnc="06"/>
+  <apn carrier="3 HK" mcc="454" mnc="03" apn="mobile.three.com.hk" user="*" server="*" password="*" mmsc="http://mms.um.three.com.hk:10021/mmsc" mmsproxy="172.20.97.116" mmsport="8799"/>
+  <apn carrier="3 ID" mcc="510" mnc="89" apn="3gprs" user="3gprs" server="" password="3gprs" proxy="10.4.0.10" port="3128" type="default" />
+  <apn carrier="3 ID MMS" mcc="510" mnc="89" apn="3mms" user="3mms" server="" password="3mms" mmsc="http://mmsthree.co.id" mmsproxy="10.4.0.10" mmsport="3128" type="mms"/>
+  <apn carrier="3 IT" apn="tre.it" proxy="" port="" user="" password="" server="" mmsc="http://10.216.59.240:10021/mmsc" mmsproxy="wsb.treumts.it" mmsport="8799" mcc="222" mnc="99" type="" />
+  <apn carrier="3 IT MMS" apn="tre.it" proxy="" port="" user="" password="" server="" mmsc="http://10.216.59.240:10021/mmsc" mmsproxy="62.13.171.3" mmsport="8799" mcc="310" mnc="410" type="" />
+  <apn carrier="3 SE" apn="data.tre.se" mcc="240" mnc="02" type=""/>
+  <apn carrier="3 SE MMS" apn="data.tre.se" mmsc="http://mms.tre.se" mmsproxy="mmsproxy.tre.se" mmsport="8799" mcc="240" mnc="02" type="mms"/>
+  <apn carrier="3 UK" apn="three.co.uk" mmsc="http://mms.um.three.co.uk:10021/mmsc" mmsproxy="mms.three.co.uk" mmsport="8799" mcc="234" mnc="20"/>  
   <apn carrier="A1" mcc="232" mnc="01" apn="a1.net" user="ppp@A1plus.at" password="ppp" server="*" mmsc="http://mmsc.A1.net" mmsproxy="194.048.124.071" mmsport="8001"/>
-  <apn carrier="Airtel India" apn="airtelgprs.com" mcc="404" mnc="90" type="default,supl"/>
-  <apn carrier="Airtel India MMS" apn="airtelmms.com" mcc="404" mnc="90" mmsproxy="100.1.201.172" mmsport="8799" mmsc="http://100.1.201.171/10021/mmsc" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="17" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="17" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="25" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="25" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="28" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="28" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="29" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="29" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="33" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="33" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="35" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="35" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="37" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="37" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="41" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="41" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="42" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="42" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="404" mnc="91" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="404" mnc="91" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="800" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="800" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="801" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="801" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="802" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="802" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="803" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="803" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="804" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="804" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="805" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="805" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="807" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="807" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="808" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="808" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="809" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="809" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="810" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="810" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="811" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="811" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Aircel" mcc="405" mnc="812" apn="aircelgprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Aircel MMS" mcc="405" mnc="812" apn="aircelmms" user="" server="" password="" mmsc="http://mmsc/mmrelay.app" mmsproxy="192.168.35.196" mmsport="8081" type="mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="02" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="03" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="10" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="16" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="31" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="40" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="45" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="49" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="70" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="90" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="92" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="93" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="94" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="95" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="96" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="97" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="404" mnc="98" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="405" mnc="51" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="405" mnc="52" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="405" mnc="53" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="405" mnc="54" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="405" mnc="55" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
+  <apn carrier="Airtel" mcc="405" mnc="56" apn="airtelgprs.com" user="" server="" password="" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="default,mms"/>
   <apn carrier="AIS GPRS Internet" mcc="520" mnc="01" apn="internet" type="default,supl"/>
   <apn carrier="AIS MMS" mcc="520" mnc="01" apn="multimedia" mmsproxy="203.170.229.34" mmsport="8080" mmsc="http://mms.mobilelife.co.th" type="mms"/>
   <apn carrier="Amazonia GPRS" numeric="72424" mcc="724" mnc="24" apn="gprs.amazoniacelular.com.br" user="celular" server="" password="celular" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
@@ -39,8 +107,58 @@ From CM github 2010-04-28 :
   <apn carrier="BSNL" mcc="404" mnc="71" apn="gprssouth.cellone.in" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="" proxy="" port=""/>
   <apn carrier="Bouygues WEB" mcc="208" mnc="20" apn="mmsbouygtel.com" user="" password="" server="*" type="default,supl"/>
   <apn carrier="Bouygues MMS" mcc="208" mnc="20" apn="mmbouygtel.com" user="" password="" server="*" mmsproxy="62.201.129.226" mmsport="8080" mmsc="http://mms.bouyguestelecom.fr/mms/wapenc" type="mms"/>
+  <apn carrier="BPL" mcc="404" mnc="21" apn="www" user="MSISDN" server="" password="bplmmsc" mmsc="" type="default"/>
+  <apn carrier="BPL" mcc="404" mnc="27" apn="www" user="MSISDN" server="" password="bplmmsc" mmsc="" type="default"/>
+  <apn carrier="BPL" mcc="404" mnc="43" apn="www" user="MSISDN" server="" password="bplmmsc" mmsc="" type="default"/>
+  <apn carrier="BPL" mcc="404" mnc="46" apn="www" user="MSISDN" server="" password="bplmmsc" mmsc="" type="default"/>
+  <apn carrier="BPL MMS" mcc="404" mnc="21" apn="mizone" user="MSISDN" server="" password="bplmmsc" mmsc="http://mms.bplmobile.com:8080" mmsproxy="10.0.0.10" mmsport="8080" type="mms"/>
+  <apn carrier="BPL MMS" mcc="404" mnc="27" apn="mizone" user="MSISDN" server="" password="bplmmsc" mmsc="http://mms.bplmobile.com:8080" mmsproxy="10.0.0.10" mmsport="8080" type="mms"/>
+  <apn carrier="BPL MMS" mcc="404" mnc="43" apn="mizone" user="MSISDN" server="" password="bplmmsc" mmsc="http://mms.bplmobile.com:8080" mmsproxy="10.0.0.10" mmsport="8080" type="mms"/>
+  <apn carrier="BPL MMS" mcc="404" mnc="46" apn="mizone" user="MSISDN" server="" password="bplmmsc" mmsc="http://mms.bplmobile.com:8080" mmsproxy="10.0.0.10" mmsport="8080" type="mms"/>
   <apn carrier="BrT Internet" numeric="72416" mcc="724" mnc="16" apn="brt.br" user="brt" server="" password="brt" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
   <apn carrier="BrT MMS" numeric="72416" mcc="724" mnc="16" apn="mms.brt.br" user="brt" server="" password="brt" proxy="" port="" mmsproxy="200.96.8.29" mmsport="8080" mmsprotocol="" mmsc="http://mms.brasiltelecom.com.br/" type="mms" />
+  <apn carrier="BSNL" mcc="404" mnc="34" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="34" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="38" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="38" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="51" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="51" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="53" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="53" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="54" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="54" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="55" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="55" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="57" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="57" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="58" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="58" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="59" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="59" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="62" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="62" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="64" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="64" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="66" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="66" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="71" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="71" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="72" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="72" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="73" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="73" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="74" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="74" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="75" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="75" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="76" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="76" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="77" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="77" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="80" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="80" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
+  <apn carrier="BSNL" mcc="404" mnc="81" apn="gprssouth.cellone.in" user="MSISDN" server="" password="MSISDN" mmsc="" type="default"/>
+  <apn carrier="BSNL MMS" mcc="404" mnc="81" apn="mmssouth.cellone.in" user="MSISDN" server="" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms"/>
   <apn carrier="CBW Internet" apn="wap.gocbw.com" proxy="216.68.79.202" port="80" user="cbw" password="" server="" mmsc="" mmsport="" mcc="310" mnc="420" type="default" />
   <apn carrier="CBW MMS" apn="wap.gocbw.com" proxy="" port="" user="" password="" server="" mmsc="http://mms.gocbw.com:8088/mms" mmsproxy="216.68.79.202" mmsport="80" mcc="310" mnc="420" authenticationtype="PAP" type="mms" />
   <apn carrier="Chess Internet" mcc="242" mnc="02" apn="netcom" user="chess" server="" password="chess" mmsproxy="" mmsport="" mmsc="" proxy="10.254.254.10" port="8080" type="default,supl"/>
@@ -84,15 +202,67 @@ From CM github 2010-04-28 :
   <apn carrier="Entel MMS" mcc="730" mnc="01" apn="mms.entelpcs.cl" user="entelmms" server="" password="entelpcs" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" type="mms" proxy="" port=""/>
   <apn carrier="Era Internet" mcc="260" mnc="02" apn="erainternet" user="erainternet" server="*" password="erainternet" mmsproxy="213.158.194.226" mmsport="8080" mmsc="http://mms.era.pl/servlets/mms" proxy="" port="" type="default,supl" />
   <apn carrier="Era MMS" mcc="260" mnc="02" apn="eramms" user="eramms" server="*" password="eramms" mmsproxy="213.158.194.226" mmsport="8080" mmsc="http://mms.era.pl/servlets/mms" proxy="" port="" type="mms" />
+  <apn carrier="Excelcom" mcc="510" mnc="11" apn="www.xlgprs.net" user="xlgprs" server="" password="proxl" mmsc="" type="default"/>
+  <apn carrier="Excelcom MMS" mcc="510" mnc="11" apn="www.xlmms.net" user="xlgprs" server="" password="proxl" mmsc="http://mmc.xl.net.id/servlets/mms" mmsproxy="202.152.240.50" mmsport="8080" type="mms"/>
   <apn carrier="Fido" apn="internet.fido.ca" user="fido" pass="fido" type="default,supl"/>
   <apn carrier="Fido MMS" apn="mms.fido.ca" mmsc="http://mms.fido.ca" mmsproxy="205.151.11.13" type="mms"/>
   <apn carrier="Gee! (GPRS)" numeric="52505" mcc="525" mnc="05" apn="shwap" user="star" server="" password="hub" proxy="10.12.1.2" port="80" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
   <apn carrier="Gee! MMS" numeric="52505" mcc="525" mnc="05" apn="shmms" user="" server="" password="" proxy="" port="" mmsproxy="10.12.1.80" mmsport="80" mmsprotocol="null" mmsc="http://mms.starhubgee.com.sg:8002/" type="mms"/>
   <apn carrier="Globul" apn="globul" user="globul" mmsc="http://mmsc1.mms.globul.bg:8002" mmsproxy="192.168.087.011:8002" mmsport="8004" mcc="284" mnc="05"/>
   <apn carrier="ICE Celular" apn="icecelular" type="" user="" pass="" mcc="712"/>
-  <apn carrier="Idea Cellular India" apn="internet" user="" password="" server="10.4.42.15" mmsc="" mmsproxy="" mmsport="" mcc="404" mnc="22" type=""/>
+  <apn carrier="IDEA" mcc="404" mnc="04" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="04" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="07" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="07" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="12" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="12" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="14" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="14" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="19" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="19" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="22" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="22" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="24" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="24" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="44" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="44" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="56" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="56" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="78" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="78" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="82" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="82" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="87" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="87" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="404" mnc="89" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="404" mnc="89" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="70" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="70" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="799" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="799" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="845" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="845" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="846" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="846" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="847" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="847" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="848" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="848" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="849" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="849" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="850" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="850" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="851" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="851" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="852" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="852" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
+  <apn carrier="IDEA" mcc="405" mnc="853" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="IDEA MMS" mcc="405" mnc="853" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
   <apn carrier="IDEAS" apn="e-ideas" user="*" password="*" server="*" mmsc="" mcc="525" mnc="01" type=""/>
   <apn carrier="IDEAS MMS" apn="e-ideas" user="65IDEAS" server="" password="65" proxy="" port="" mmsproxy="165.21.42.84" mmsport="8080" mmsprotocol="" mmsc="http://mms.singtel.com:10021/mmsc" mcc="525" mnc="01" type="mms"/>
+  <apn carrier="Ludo Internet" mcc="242" mnc="01" apn="internet.ventelo.no" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port="" type="default,supl" />
+  <apn carrier="Indosat" mcc="510" mnc="01" apn="indosat3g" user="indosat" server="" password="indosat" mmsproxy="" mmsport="" mmsc="" proxy="" port="" type="default" />
+  <apn carrier="Indosat MMS" mcc="510" mnc="01" apn="indosatmms" user="indosat" server="" password="indosat" mmsc="http://mmsc.indosat.com" mmsproxy="10.19.19.19" mmsport="8080" type="mms"/>
   <apn carrier="iWireless" mcc="310" mnc="770" apn="i2.iwireless.com" user="" password="" server="" mmsc="" type="default" />
   <apn carrier="iWireless MMS" apn="wap1.iwireless.com" mmsc="http://mmsc.iwireless.dataonair.net:6672" mmsproxy="209.4.229.32" mmsport="9201" mcc="310" mnc="770" type="mms"/>
   <apn carrier="Kyivstar EDGE" apn="www.kyivstar.net" user="" password="" server="" mmsc="" mcc="255" mnc="03" type="default"/>
@@ -136,6 +306,8 @@ From CM github 2010-04-28 :
   <apn carrier="Mtel" apn="inet-gprs.mtel.bg" mmsc="http://mmsc/" mmsproxy="010.150.000.033" mmsport="8080" mcc="284" mnc="01"/>
   <apn carrier="MTN ZA" apn="myMTN" user="mtn" password="mtn" server="*" mcc="655" mnc="10" type=""/>
   <apn carrier="MTN ZA-MMS" apn="myMTN" user="mtnmms" password="mtnmms" server="" mmsc="http://mms.mtn.co.za/mms/wapenc" mmsproxy="196.11.240.241" mmsport="8080" mcc="655" mnc="10" type="mms"/>
+  <apn carrier="MTNL" mcc="404" mnc="68" apn="gprsmtnldel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
+  <apn carrier="MTNL" mcc="404" mnc="69" apn="gprsmtnldel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
   <apn carrier="MTS BY // Internet" apn="mts" mcc="257" mnc="02" user="mts" password="mts" type="default,supl"/>
   <apn carrier="MTS BY // MMS" apn="mts" mcc="257" mnc="02" user="mts" password="mts" mmsc="http://mmsc" mmsproxy="192.168.192.168" mmsport="8080" type="mms"/>
   <apn carrier="MTS RUS" apn="internet.mts.ru" user="mts" password="mts" server="" mmsc="" mcc="250" mnc="01" type="default"/>
@@ -209,6 +381,62 @@ From CM github 2010-04-28 :
   <apn carrier="Proximus Internet" apn="internet.proximus.be" mcc="206" mnc="01" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
   <apn carrier="Proximus MMS" apn="event.proximus.be" mcc="206" mnc="01" user="mms" server="" password="mms" proxy="" port="" mmsproxy="10.55.14.75" mmsport="8080" mmsprotocol="" mmsc="http://mmsc.proximus.be/mms" type="mms"/>
   <apn carrier="RCOM" apn="rcomnet" mcc="404" mnc="013" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
+  <apn carrier="Reliance" mcc="404" mnc="09" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="09" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="18" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="18" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="36" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="36" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="50" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="50" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="52" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="52" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="67" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="67" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="83" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="83" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="404" mnc="85" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="404" mnc="85" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="01" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="01" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="03" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="03" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="05" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="05" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="06" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="06" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="07" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="07" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="08" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="08" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="09" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="09" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="10" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="10" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="11" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="11" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="12" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="12" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="13" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="13" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="14" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="14" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="15" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="15" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="17" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="17" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="18" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="18" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="19" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="19" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="20" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="20" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="21" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="21" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="22" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="22" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Reliance" mcc="405" mnc="23" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Reliance MMS" mcc="405" mnc="23" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="720"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="72"/>
   <apn carrier="SCTL GPRS" numeric="72407" mcc="724" mnc="07" apn="sercomtel.com.br" user="sercomtel" server="" password="sercomtel" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
@@ -233,6 +461,18 @@ From CM github 2010-04-28 :
   <apn carrier="Softbank(open)" apn="open.softbank.ne.jp" user="open" password="ebMNuX1FIHg9d3DA" mcc="440" mnc="20" mmsc="http://mms/" mmsproxy="sbmmsproxy.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Sonofon" mcc="238" mnc="02" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Sonofon MMS" mcc="238" mnc="02" apn="sonofon" user="sonofon" server="" password="sonofon" mmsc="http://mms.sonofon.dk" mmsproxy="212.88.64.8" mmsport="8080" type="mms"/>
+  <apn carrier="SPICE" mcc="404" mnc="14" apn="spicegprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SPICE MMS" mcc="404" mnc="14" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
+  <apn carrier="SPICE" mcc="404" mnc="44" apn="spicegprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SPICE MMS" mcc="404" mnc="44" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
+  <apn carrier="SPICE" mcc="405" mnc="908" apn="spicegprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SPICE MMS" mcc="405" mnc="908" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
+  <apn carrier="SPICE" mcc="405" mnc="909" apn="spicegprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SPICE MMS" mcc="405" mnc="909" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
+  <apn carrier="SPICE" mcc="405" mnc="910" apn="spicegprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SPICE MMS" mcc="405" mnc="910" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
+  <apn carrier="SPICE" mcc="405" mnc="911" apn="spicegprs" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SPICE MMS" mcc="405" mnc="911" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
   <apn carrier="Sunrise Internet" mcc="228" mnc="02" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port="" type="default"/>
   <apn carrier="Sunrise MMS" mcc="228" mnc="02" apn="mms.sunrise.ch" user="mms" server="" password="mms" mmsproxy="212.35.34.75" mmsport="8080" mmsc=" http://mmsc.sunrise.ch" proxy="" port="" type="mms"/>
   <apn carrier="Sunsurf Internet" numeric="52503" mcc="525" mnc="03" apn="sunsurf" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc=""/>
@@ -245,6 +485,50 @@ From CM github 2010-04-28 :
   <apn carrier="Talkmore Internet" mcc="242" mnc="01" apn="telenor" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="" proxy="" port="default,supl"/>
   <apn carrier="Talkmore MMS" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="10.10.10.11" mmsport="8080" mmsc="http://mmsc/" type="mms" proxy="" port=""/>
   <apn carrier="Tango Internet" apn="internet" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="270" mnc="77" />
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="029" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="029" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="025" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="025" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="026" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="026" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="027" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="027" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="030" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="030" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="031" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="031" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="032" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="032" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="033" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="033" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="034" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="034" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="035" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="035" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="036" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="036" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="037" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="037" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="038" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="038" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="039" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="039" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="040" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="040" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="041" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="041" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="042" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="042" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="043" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="043" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="044" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="044" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="045" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="045" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="046" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="046" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
+  <apn carrier="TA TA DoCoMo" mcc="405" mnc="047" apn="TATA.DOCOMO.INTERNET" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="047" apn="TATA.DOCOMO.MMS" user="" server="" password="" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms"/>
   <apn carrier="TDC Internet" mcc="238" mnc="01" apn="internet.no" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="default,supl" proxy="" port=""/>
   <apn carrier="TDC MMS" mcc="238" mnc="01" apn="mms.no" user="" server="" password="" mmsproxy="194.182.251.15" mmsport="" mmsc="http://mms.tdcmobil.no:8002" type="mms" proxy="" port=""/>
   <apn carrier="Telcel EDGE" mcc="334" mnc="020" apn="internet.itelcel.com" user="webgprs" password="webgprs2002" type="default"/>
@@ -256,9 +540,8 @@ From CM github 2010-04-28 :
   <apn carrier="Telemig GPRS" numeric="72419" mcc="724" mnc="19" apn="gprs.telemigcelular.com.br" user="celular" server="" password="celular" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
   <apn carrier="Telemig MMS" numeric="72423" mcc="724" mnc="23" apn="mmsgprs.telemigcelular.com.br" user="celular" server="" password="celular" proxy="" port="" mmsproxy="200.192.230.142" mmsport="8080" mmsprotocol="" mmsc="http://mms.telemigcelular.com.br" type="mms" />
   <apn carrier="Telemig MMS" numeric="72419" mcc="724" mnc="19" apn="mmsgprs.telemigcelular.com.br" user="celular" server="" password="celular" proxy="" port="" mmsproxy="200.192.230.142" mmsport="8080" mmsprotocol="" mmsc="http://mms.telemigcelular.com.br" type="mms" />
-  <apn carrier="Telenor" apn="telenor" user="dj" password="dj" mmsc="http://mmsc/" mmscproxy="10.10.10.11" mmsport="8080" mcc="242" mnc="01" type="mms"/>
-  <apn carrier="Telenor Internet" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="" mmsport="" mmsc="" proxy="10.10.10.10" port="8080" type="default,supl" />
-  <apn carrier="Telenor MMS" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="10.10.10.11" mmsport="8080" mmsc="~http://mmsc/" type="mms" proxy="" port=""/>
+  <apn carrier="Telenor NO" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="" mmsport="" mmsc="" proxy="10.10.10.10" port="8080" type="default,supl" />
+  <apn carrier="Telenor NO MMS" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="10.10.10.11" mmsport="8080" mmsc="~http://mmsc/" type="mms" proxy="" port=""/>
   <apn carrier="Telenor DK" mcc="238" mnc="02" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Telenor DK MMS" mcc="238" mnc="02" apn="telenor" user="telenor" server="" password="telenor" mmsc="http://mms.telenor.dk" mmsproxy="212.88.64.8" mmsport="9201" type="mms"/>
   <apn carrier="Telenor SE Data" apn="internet.telenor.se" mcc="240" mnc="08" type="default"/>
@@ -269,15 +552,14 @@ From CM github 2010-04-28 :
   <apn carrier="Telia DK MMS" apn=" www.mms.mtelia.dk " mmsc=" http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" mcc="238" mnc="20"/>
   <apn carrier="Telia S" mcc="240" mnc="01" apn="online.telia.se" user="*" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default" />
   <apn carrier="Telipol Internet" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port=""/>
-  <apn carrier="Telkomsel Internet" apn="internet" type="" user="wap" pass="wap123" mcc="510" mnc="10"/>
+  <apn carrier="Telkomsel" mcc="510" mnc="10" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Telkomsel MMS" mcc="510" mnc="10" apn="mms" user="wap" server="" password="wap123" mmsc="http://mms.telkomsel.com" mmsproxy="10.1.89.150" mmsport="9201" type="mms"/>
   <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port=""/>
   <apn carrier="Telstra 3G Pay by Time" apn="telstra.pcpack" password="telstra" mcc="505" mnc="01"/>
   <apn carrier="Telstra w/ Portal" apn="telstra.internet" mcc="505" mnc="01" proxy="10.1.1.181" port="80" user="" password="" mmsc="http://mmsc.telstra.com:8002" mmsproxy="10.1.1.181" mmsport="80"/>
   <apn carrier="Telus SP" mcc="302" mnc="220" apn="sp.telus.com" proxy="74.49.0.18" port="80" mmsc="http://aliasredirect.net/proxy/mmsc" mmsproxy="74.49.0.18" mmsport="80" mmsprotocol="WAP 2.0"/>
   <apn carrier="Tesco" apn="prepay.tesco-mobile.com" mcc="234" mnc="10" proxy="193.113.200.195" port="8080" user="tescowap" password="tescowap" mmsc="http://mmsc.mms.02.co.uk:8002" mmsproxy="193.113.200.195" mmsport="8080"/>
   <apn carrier="Tesco UK" mcc="425" mnc="01" apn="prepay.tesco-mobile.com" user="tescowap" server="http://wap.tesco-mobile.com/" password="password" proxy="193.113.200.195" port="9201" mmsproxy="" mmsport="" mmsc="" type=""/>
-  <apn carrier="Three" apn="3netaccess" mcc="505" mnc="06" type="default,supl"/>
-  <apn carrier="Three MMS" apn="3services" mmsc="http://mmsc.three.net.au:10021/mmsc" mmsproxy="mmsprox.three.net.au" mmsport="8799" mcc="505" mnc="06" type="mms"/>
   <apn carrier="TIM" apn="ibox.tim.it" user="*" password="*" server="*" />
   <apn carrier="TIM BR CONNECT FAST" numeric="72402" mcc="724" mnc="02" apn="tim.br" user="tim" server="" password="tim" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
   <apn carrier="TIM BR MMS" numeric="72402" mcc="724" mnc="02" apn="mms.tim.br" user="tim" server="" password="tim" proxy="" port="" mmsproxy="200.179.66.242" mmsport="8080" mmsprotocol="" mmsc="http://mms.tim.br" type="mms" />
