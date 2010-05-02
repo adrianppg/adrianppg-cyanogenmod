@@ -17,6 +17,8 @@ From CM github 2010-04-28 :
   <apn carrier="3 HK" mcc="454" mnc="03" apn="mobile.three.com.hk" user="*" server="*" password="*" mmsc="http://mms.um.three.com.hk:10021/mmsc" mmsproxy="172.20.97.116" mmsport="8799"/>
   <apn carrier="3 ID" mcc="510" mnc="89" apn="3gprs" user="3gprs" server="" password="3gprs" proxy="10.4.0.10" port="3128" type="default" />
   <apn carrier="3 ID MMS" mcc="510" mnc="89" apn="3mms" user="3mms" server="" password="3mms" mmsc="http://mmsthree.co.id" mmsproxy="10.4.0.10" mmsport="3128" type="mms"/>
+  <apn carrier="3 IE" mcc="272" mnc="05" apn="3ireland.ie" server="3ireland.ie" user="" password="" proxy="" port="" mmsc="" mmsproxy="" mmsport="" type="default" />
+<apn carrier="3 IE MMS" mcc="272" mnc="05" apn="3ireland.ie" server="3ireland.ie" user="" password="" proxy="" port="" mmsc="http://mms.um.3ireland.ie:10021/mmsc" mmsproxy="mms.3ireland.ie" mmsport="8799" type="mms" />
   <apn carrier="3 IT" apn="tre.it" proxy="" port="" user="" password="" server="" mmsc="http://10.216.59.240:10021/mmsc" mmsproxy="wsb.treumts.it" mmsport="8799" mcc="222" mnc="99" type="default,mms"/>
   <apn carrier="3 SE" apn="data.tre.se" mcc="240" mnc="02" type=""/>
   <apn carrier="3 SE MMS" apn="data.tre.se" mmsc="http://mms.tre.se" mmsproxy="mmsproxy.tre.se" mmsport="8799" mcc="240" mnc="02" type="mms"/>
@@ -221,6 +223,8 @@ From CM github 2010-04-28 :
   <apn carrier="du" mcc="424" mnc="03" apn="du" user="" server="" password="" mmsc="http://mms.du.ae" mmsproxy="10.19.18.4" mmsport="9201" type="default,mms"/>
   <apn carrier="E-Plus" mcc="262" mnc="03" apn="internet.eplus.de" user="eplus" server="" password="wap" mmsc="" type="default"/>
   <apn carrier="E-Plus MMS" mcc="262" mnc="03" apn="mms.eplus.de" user="mms" server="" password="eplus" mmsc="http://mms/eplus" mmsproxy="212.23.97.153" mmsport="5080" type="mms"/>
+  <apn carrier="Eircom/Meteor" mcc="272" mnc="03" apn="wap.mymeteor.ie" server="http://wap.mymeteor.ie" user="my" password="meteor" proxy="10.85.85.85" port="8799" mmsc="mms.mymeteor.ie" mmsproxy="10.85.85.85" mmsport="8799" type="default" />
+<apn carrier="Eircom/Meteor MMS" mcc="272" mnc="03" apn="wap.mymeteor.ie" server="http://wap.mymeteor.ie" user="my" password="meteor" proxy="10.85.85.85" port="8799" mmsc="http://mms.mymeteor.ie" mmsproxy="10.85.85.85" mmsport="8799" type="mms" />
   <apn carrier="Elisa" mcc="244" mnc="05" apn="Internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Elisa MMS" mcc="244" mnc="05" apn="mms" user="" server="" password="" mmsc="http://mms.elisa.fi" mmsproxy="213.161.41.57" mmsport="80" type="mms"/>
   <apn carrier="EMT" mcc="248" mnc="01" apn="internet.emt.ee" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
@@ -242,6 +246,7 @@ From CM github 2010-04-28 :
   <apn carrier="GLOBE" mcc="515" mnc="02" apn="internet.globe.com.ph" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="GLOBE MMS" mcc="515" mnc="02" apn="real.globe.com.ph" user="globe" server="" password="globe" mmsc="http://192.40.100.22:10021/mmsc" mmsproxy="192.40.100.20" mmsport="8080" type="mms"/>
   <apn carrier="Globul" apn="globul" user="globul" mmsc="http://mmsc1.mms.globul.bg:8002" mmsproxy="192.168.087.011:8002" mmsport="8004" mcc="284" mnc="05"/>
+  <apn carrier="Grameenphone" mcc="470" mnc="01" apn="gpinterneth" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="ICE Celular" apn="icecelular" type="" user="" pass="" mcc="712"/>
   <apn carrier="IDEA" mcc="404" mnc="04" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="IDEA MMS" mcc="404" mnc="04" apn="mmsc" user="" server="" password="" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms"/>
@@ -332,6 +337,8 @@ From CM github 2010-04-28 :
   <apn carrier="MiWorld MMS" numeric="52503" mcc="525" mnc="03" apn="miworld" user="65" server="" password="user123" proxy="" port="" mmsproxy="172.16.14.10" mmsport="8080" mmsprotocol="null" mmsc="http://mmsgw:8002/" type="mms"/>
   <apn carrier="Mobifone" mcc="452" mnc="00" apn="m-wap" user="mms" server="" password="mms" mmsc="" type="default"/>
   <apn carrier="Mobifone MMS" mcc="452" mnc="00" apn="m-i090" user="wap" server="" password="wap" mmsc="http://203.162.21.114/mmsc" mmsproxy="203.162.21.114" mmsport="8000" type="mms"/>
+  <apn carrier="Mobilink" mcc="410" mnc="01" apn="connect.mobilinkworld.com" user="guest" server="" password="guest" type="default"/>
+  <apn carrier="Mobilink MMS" mcc="410" mnc="01" apn="mms.mobilinkworld.com" user="mobilink" server="" password="mobilink" mmsc="http://mms" mmsproxy="172.25.20.12" mmsport="8080" type="mms"/>
   <apn carrier="Mobilkom" mcc="232" mnc="01" apn="a1.net" user="ppp@a1plus.at" password="ppp" server="" mmsc="" type="default,supl"/>
   <apn carrier="Mobilkom-MMS" apn="free.a1.net" proxy="" port="" user="ppp@a1plus.at" password="ppp" server="" mmsc="http://mmsc.a1.net" mmsproxy="194.48.124.71" mmsport="8001" mcc="232" mnc="01" type="mms"/>
   <apn carrier="Mobily" mcc="420" mnc="03" apn="wed1" user="" server="" password="" mmsc="" type="default"/>
@@ -378,11 +385,13 @@ From CM github 2010-04-28 :
   <apn carrier="Nawras MMS" mcc="422" mnc="03" apn="mms.nawras.com.om" user="test" server="" password="test" proxy="10.128.240.19" port="8080" mmsc="http://10.128.240.16/servlets/mms" mmsproxy="10.128.240.19" mmsport="8080" type="mms"/>
   <apn carrier="Netcom Internet" mcc="242" mnc="02" apn="internet.netcom.no" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="default,supl" proxy="" port=""/>
   <apn carrier="Netcom MMS" mcc="242" mnc="02" apn="mms.netcom.no" user="mms" server="" password="netcom" mmsproxy="212.169.66.4" mmsport="8080" mmsc="http://mms/" type="mms" proxy="" port=""/>
-  <apn carrier="NL KPN" apn="internet" type="" user="" pass=""/>
+  <apn carrier="NwN Internet" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="default" proxy="" port="" type="default,supl"/>
+<apn carrier="NwN MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="188.149.250.10" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port="" type="mms"/>
   <apn carrier="O2 CZ-Internet" apn="internet" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="230" mnc="02" type="default,supl"/>
   <apn carrier="O2 CZ-MMS" apn="mms" proxy="" port="" user="" password="" server="O2 MMS" mmsc="http://mms.o2active.cz:8002" mmsproxy="160.218.160.218" mmsport="8080" mcc="230" mnc="02" type="mms"/>
   <apn carrier="O2 DE-Internet" apn="o2surf" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="262" mnc="07" />
   <apn carrier="O2 DE-Internet" apn="surfo2" mmsc="http://10.81.0.7:8002" mmsproxy="82.113.100.5" mmsport="8080" mcc="262" mnc="07"/>
+  <apn carrier="O2 Ireland" mcc="272" mnc="02" apn="wap.dol.ie" server="www.o2.ie" user="user" password="user" proxy="62.40.32.40" port="8080" mmsc="http://mmsc.mms.o2.ie:8002" mmsproxy="62.40.32.40" mmsport="8080" type="default,mms" />
   <apn carrier="O2 SK" apn="o2internet" user="" pass="" mcc="231" mnc="06"/>
   <apn carrier="O2 SK MMS" mcc="231" mnc="06" apn="o2mms" user="" server="" password="" mmsc="http://mms.o2world.sk:8002" mmsproxy="10.97.1.11" mmsport="8080" type="mms"/>
   <apn carrier="O2 UK" apn="mobile.o2.co.uk" user="vertigo" pass="password" mcc="234" mnc="10"/>
@@ -454,6 +463,8 @@ From CM github 2010-04-28 :
   <apn carrier="PlusGSM" numeric="26001" mcc="260" mnc="01" apn="www.plusgsm.pl" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default" />
   <apn carrier="PlusGSM MMS" numeric="26001" mcc="260" mnc="01" apn="mms.plusgsm.pl" user="" server="" password="" proxy="" port="" mmsproxy="212.002.096.016" mmsport="8080" mmsprotocol="null" mmsc="http://mms.plusgsm.pl:8002" type="mms" />
   <apn carrier="Porta EC" apn="internet.porta.com.ec" mcc="740" mnc="010" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
+  <apn carrier="ProMonte" mcc="297" mnc="01" apn="gprs.promonte.com" user="gprs" server="" password="gprs" mmsc="" type="default"/>
+  <apn carrier="ProMonte MMS" mcc="297" mnc="01" apn="mms.promonte.com" user="mms" server="" password="mms" mmsc=" http://mm.vor.promonte.com" mmsproxy="192.168.246.005" mmsport="8080" type="mms"/>
   <apn carrier="Proximus Internet" apn="internet.proximus.be" mcc="206" mnc="01" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default,supl"/>
   <apn carrier="Proximus MMS" apn="event.proximus.be" mcc="206" mnc="01" user="mms" server="" password="mms" proxy="" port="" mmsproxy="10.55.14.75" mmsport="8080" mmsprotocol="" mmsc="http://mmsc.proximus.be/mms" type="mms"/>
   <apn carrier="Q-tel" mcc="427" mnc="01" apn="web.qtel" user="gprs" server="" password="gprs" mmsc="" type="default"/>
@@ -648,7 +659,9 @@ From CM github 2010-04-28 :
   <apn carrier="Telenor DK MMS" mcc="238" mnc="02" apn="telenor" user="telenor" server="" password="telenor" mmsc="http://mms.telenor.dk" mmsproxy="212.88.64.8" mmsport="9201" type="mms"/>
   <apn carrier="Telenor NO" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="" mmsport="" mmsc="" proxy="10.10.10.10" port="8080" type="default,supl" />
   <apn carrier="Telenor NO MMS" mcc="242" mnc="01" apn="telenor" user="dj" server="" password="dj" mmsproxy="10.10.10.11" mmsport="8080" mmsc="~http://mmsc/" type="mms" proxy="" port=""/>
-  <apn carrier="Telenor SE Data" apn="internet.telenor.se" mcc="240" mnc="08" type="default"/>
+  <apn carrier="Telenor PK" apn="internet" user="Telenor" password="Telenor" mcc="410" mnc="06" type="default"/>
+  <apn carrier="Telenor PK MMS" apn="mms" user="Telenor" password="Telenor" mmsc="http://mmstelenor" mmsproxy="172.18.19.11" mmsport="808" mcc="410" mnc="06" type="mms"/>
+  <apn carrier="Telenor SE" apn="internet.telenor.se" mcc="240" mnc="08" type="default"/>
   <apn carrier="Telenor SE MMS" apn="services.telenor.se" mmsc="http://mss" mmsproxy="172.30.253.241" mmsport="8799" mcc="240" mnc="08" type="mms"/>
   <apn carrier="tele.ring WEB" apn="web" user="web@telering.at" password="web" server="" mmsc="" mmsproxy="" mmsport="" mcc="232" mnc="07" type="default,supl"/>
   <apn carrier="tele.ring MMS" apn="mms" user="wap@telering.at" password="wap" server="" mmsc="http://relay.mms.telering.at" mmsproxy="212.95.31.50" mmsport="8080" mcc="232" mnc="07" type="mms"/>
@@ -661,7 +674,8 @@ From CM github 2010-04-28 :
   <apn carrier="Telipol Internet" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port=""/>
   <apn carrier="Telkomsel" mcc="510" mnc="10" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Telkomsel MMS" mcc="510" mnc="10" apn="mms" user="wap" server="" password="wap123" mmsc="http://mms.telkomsel.com" mmsproxy="10.1.89.150" mmsport="9201" type="mms"/>
-  <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port=""/>
+  <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port="" type="default,supl"/>
+  <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" type="mms" proxy="" port="" type="mms"/>
   <apn carrier="Telstra 3G Pay by Time" apn="telstra.pcpack" password="telstra" mcc="505" mnc="01"/>
   <apn carrier="Telstra w/ Portal" apn="telstra.internet" mcc="505" mnc="01" proxy="10.1.1.181" port="80" user="" password="" mmsc="http://mmsc.telstra.com:8002" mmsproxy="10.1.1.181" mmsport="80"/>
   <apn carrier="Telus SP" mcc="302" mnc="220" apn="sp.telus.com" proxy="74.49.0.18" port="80" mmsc="http://aliasredirect.net/proxy/mmsc" mmsproxy="74.49.0.18" mmsport="80" mmsprotocol="WAP 2.0"/>
@@ -714,6 +728,8 @@ From CM github 2010-04-28 :
   <apn carrier="Turkcell MMS" mcc="286" mnc="01" apn="mms" user="mms" server="" password="mms" mmsc="http://mms.turkcell.com.tr/servlets/mms" mmsproxy="212.252.169.217" mmsport="9201" type="mms"/>
   <apn carrier="Tusmobil Internet" mcc="293" mnc="70" apn="internet.tusmobil.si" user="tusmobil" server="" password="internet" mmsproxy="" mmsport="" mmsc="" proxy="91.185.221.85" port="8002" type="" />
   <apn carrier="Tusmobil MMS" mcc="293" mnc="70" apn="internet.tusmobil.si" user="tusmobil" server="" password="internet" mmsproxy="91.185.221.85" mmsport="8002" mmsc="http://mms.tusmobil.si:8002" proxy="" port="" type="" />
+  <apn carrier="Ufone" mcc="410" mnc="03" apn="ufone.pinternet" user="" server="" password="" type="default"/>
+  <apn carrier="Ufone MMS" mcc="410" mnc="03" apn="ufone.mms" user="" server="" password="" mmsc="http://www.ufone.com" mmsproxy="172.16.13.27" mmsport="8080" type="mms"/>
   <apn carrier="Umniah" mcc="416" mnc="03" apn="net" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Umniah MMS" mcc="416" mnc="03" apn="mms" user="" server="" password="" mmsc="http://mms.umniah.com/" mmsproxy="10.1.1.10" mmsport="9201" type="mms"/>
   <apn carrier="Velcom Web" apn="web.velcom.by" mcc="257" mnc="01" user="web" password="web" type="default,supl"/>
@@ -825,6 +841,8 @@ From CM github 2010-04-28 :
   <apn carrier="Vodafone TR MMS" mcc="286" mnc="02" apn="mms" user="vodafone" server="" password="vodafone" mmsc="http://217.31.233.18:6001/MM1Servlet" mmsproxy="217.31.233.18" mmsport="9201" type="mms"/>
   <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" mmsproxy="212.183.137.12" mmsport="8799"/>
   <apn carrier="VOX Mobile" mcc="270" mnc="99" apn="vox.lu" user="" server="" password="" mmsc="http://mms.vox.lu" mmsproxy="212.088.139.44" mmsport="8080" type="default,mms"/>
+  <apn carrier="Warid" mcc="410" mnc="07" apn="warid" user="" server="" password="" type="default"/>
+  <apn carrier="Warid MMS" mcc="410" mnc="07" apn="mms.warid" user="" server="" password="" mmsc="http://10.4.0.132/servlets/MMS" mmsproxy="010.004.002.001" mmsport="8080" type="mms"/>
   <apn carrier="wataniya" mcc="419" mnc="3" apn="action.wataniya.com" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="wataniya MMS" mcc="419" mnc="3" apn="mms.wataniya.com" user="" server="" password="" mmsc="http://action.wataniya.com" mmsproxy="194.126.053.064" mmsport="8080" type="mms"/>
   <apn carrier="Wind CA" mcc="302" mnc="490" apn="internet.windmobile.ca" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
@@ -837,6 +855,8 @@ From CM github 2010-04-28 :
   <apn carrier="Yoigo" mcc="214" mnc="04" apn="internet" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="" proxy="010.008.000.036" port="8080"/>
   <apn carrier="Yoigo MMS" mcc="214" mnc="04" apn="mms" user="" server="" password="" mmsproxy="93.209.134.141" mmsport="80" mmsc="http://mmss" type="mms" proxy="93.209.134.141" port="80"/>
   <apn carrier="Zain" mcc="420" mnc="04" apn="zain" user="" server="" password="" mmsc="http://10.122.200.12:8002" mmsproxy="10.122.200.10" mmsport="8080" type="default,mms"/>
+  <apn carrier="Zong" mcc="410" mnc="04" apn="zonginternet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Zong MMS" mcc="410" mnc="04" apn="zongmms" user="" server="" password="" mmsc="10.81.6.11" mmsproxy="10.81.6.11" mmsport="8080" type="mms"/>
 </apns>
 
 
