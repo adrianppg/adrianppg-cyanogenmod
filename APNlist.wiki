@@ -672,11 +672,10 @@ From CM github 2010-04-28 :
   <apn carrier="Telia DK MMS" apn=" www.mms.mtelia.dk " mmsc=" http://mms.telia.dk" mmsproxy="193.209.134.131" mmsport="8080" mcc="238" mnc="20"/>
   <apn carrier="Telia SE" mcc="240" mnc="01" apn="online.telia.se" user="*" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="" type="default" />
   <apn carrier="Telia SE MMS" mcc="240" mnc="01" apn="mms.telia.se" user="mms" server="" password="telia" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="9201" type="mms"/>
-  <apn carrier="Telipol Internet" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port=""/>
   <apn carrier="Telkomsel" mcc="510" mnc="10" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Telkomsel MMS" mcc="510" mnc="10" apn="mms" user="wap" server="" password="wap123" mmsc="http://mms.telkomsel.com" mmsproxy="10.1.89.150" mmsport="9201" type="mms"/>
-  <apn carrier="Telopol" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="default"/>
-  <apn carrier="Telopol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" proxy="" port="" type="mms"/>
+  <apn carrier="Telipol" mcc="242" mnc="05" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="Telipol MMS" mcc="242" mnc="05" apn="mms" user="" server="" password="" mmsproxy="89.254.65.20" mmsport="80" mmsc="http://mms.nwn.no" proxy="" port="" type="mms"/>
   <apn carrier="Telstra 3G Pay by Time" apn="telstra.pcpack" password="telstra" mcc="505" mnc="01"/>
   <apn carrier="Telstra w/ Portal" apn="telstra.internet" mcc="505" mnc="01" proxy="10.1.1.181" port="80" user="" password="" mmsc="http://mmsc.telstra.com:8002" mmsproxy="10.1.1.181" mmsport="80"/>
   <apn carrier="Telus SP" mcc="302" mnc="220" apn="sp.telus.com" proxy="74.49.0.18" port="80" mmsc="http://aliasredirect.net/proxy/mmsc" mmsproxy="74.49.0.18" mmsport="80" mmsprotocol="WAP 2.0"/>
