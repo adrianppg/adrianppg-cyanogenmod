@@ -535,9 +535,6 @@ From CM github 2010-04-28 :
   <apn carrier="SFR WAP" mcc="208" mnc="10" apn="wapsfr" proxy="195.115.25.129" port="8080" user="none" server="*" password="none" type="default,supl" />
   <apn carrier="Sonera" mcc="244" mnc="91" apn="Internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Sonera MMS" mcc="244" mnc="91" apn="wap.sonera.net" user="" server="" password="" mmsc="http://mms.sonera.fi:8002" mmsproxy="195.156.25.33" mmsport="8080" type="mms"/>
-  <apn carrier="StarHub Internet" numeric="52505" mcc="525" mnc="05" apn="shwap" user="star" server="" password="hub" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc=""/>
-  <apn carrier="STC" apn="jawalnet.com.sa" user="" password="" server="" mmsc="" mcc="420" mnc="01" type="default,supl"/>
-  <apn carrier="STC MMS" apn="mms.net.sa" user="" password="" server="" mmsc="http://mms.net.sa" mmsproxy="10.1.1.1" mmsport="8080" mcc="420" mnc="01" type="mms"/>
   <apn carrier="Siminn" mcc="274" mnc="01" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Siminn MMS" mcc="274" mnc="01" apn="mms.simi.is" user="" server="" password="" mmsc="http://mms.simi.is/servlets/mms" mmsproxy="213.167.138.200" mmsport="9201" type="mms"/>
   <apn carrier="Si.mobil Internet" mcc="293" mnc="40" apn="internet.simobil.si" user="simobil" server="" password="internet" mmsproxy="" mmsport="" mmsc="" proxy="80.95.224.46" port="9201" type="default" />
@@ -574,6 +571,8 @@ From CM github 2010-04-28 :
   <apn carrier="SPICE MMS" mcc="405" mnc="911" apn="spicemms" user="User Mobile number" server="" password="spice" mmsc="http://10.200.200.3:8514" mmsproxy="10.200.200.3" mmsport="8080" type="mms"/>
   <apn carrier="StarHub" mcc="525" mnc="05" apn="shwapint" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="StarHub MMS" mcc="525" mnc="05" apn="shmms" user="mms" server="" password="mms" mmsc="http://mms.starhubgee.com.sg:8002" mmsproxy="10.12.1.80" mmsport="80" type="mms"/>
+  <apn carrier="STC" apn="jawalnet.com.sa" user="" password="" server="" mmsc="" mcc="420" mnc="01" type="default,supl"/>
+  <apn carrier="STC MMS" apn="mms.net.sa" user="" password="" server="" mmsc="http://mms.net.sa" mmsproxy="10.1.1.1" mmsport="8080" mcc="420" mnc="01" type="mms"/>
   <apn carrier="SUN" mcc="515" mnc="05" apn="minternet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="SUN MMS" mcc="515" mnc="05" apn="mms" user="" server="" password="" mmsc="http://mmscenter.suncellular.com.ph" mmsproxy="202.138.159.78" mmsport="9201" type="mms"/>
   <apn carrier="Sunrise Internet" mcc="228" mnc="02" apn="internet" user="" server="" password="" mmsproxy="" mmsport="" mmsc="" proxy="" port="" type="default"/>
