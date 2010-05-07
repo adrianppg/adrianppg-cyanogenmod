@@ -202,7 +202,8 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="COMCEL MMS" mcc="732" mnc="101" apn="mms.comcel.com.co" user="COMCELMMS" server="" password="*********" mmsc="http://mms.comcel.com.co/mms/" mmsproxy="198.228.90.225" mmsport="9201" type="mms"/>
   <apn carrier="Cosmote GR" mcc="202" mnc="01" apn="Internet" type="default,supl"/>
   <apn carrier="Cosmote GR MMS" mcc="202" mnc="01" apn="Mms" mmsproxy="10.10.10.20" mmsport="8080" mmsc="195.167.65.220:8002" type="mms"/>
-  <apn carrier="Cosmote RO" mcc="266" mnc="03" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Cosmote Internet RO" mcc="266" mnc="03" apn="internet" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Cosmote WNW RO" mcc="266" mnc="03" apn="wnw" proxy="20.252.1.62" port="8080" user="wnw" password="wnw" type="default"/>
   <apn carrier="Cosmote RO MMS" mcc="266" mnc="03" apn="mms" user="mms" server="" password="mms" mmsc="http://mmsc1.mms.cosmote.ro:8002" mmsproxy="10.252.1.62" mmsport="8080" type="mms"/>
   <apn carrier="CSL" mcc="454" mnc="00" apn="hkcsl" user="" server="" password="" proxy="192.168.59.51" port="8080" mmsc="http://192.168.58.171:8002/" mmsproxy="192.168.59.51" mmsport="8080" type="default,mms"/>
   <apn carrier="CSL" mcc="454" mnc="18" apn="hkcsl" user="" server="" password="" proxy="192.168.59.51" port="8080" mmsc="http://192.168.58.171:8002/" mmsproxy="192.168.59.51" mmsport="8080" type="default,mms"/>
