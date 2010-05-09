@@ -575,6 +575,8 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Robi MMS" apn="WAP" user="" password="" server="" mmsc="http://192.168.23.4/was" mmsproxy="192.168.023.007" mmsport="9028" mcc="470" mnc="02" type="mms"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="720"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="72"/>
+  <apn carrier="Saunalahti" mcc="244" mnc="21" apn="internet.saunalahti" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Saunalahti MMS" mcc="244" mnc="21" apn="mms.saunalahti.fi" user="" server="" password="" mmsc="http://mms.saunalahti.fi:8002" mmsproxy="62.142.4.197" mmsport="8080" type="mms"/>
   <apn carrier="SCTL GPRS" numeric="72407" mcc="724" mnc="07" apn="sercomtel.com.br" user="sercomtel" server="" password="sercomtel" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
   <apn carrier="SCTL MMS" numeric="72407" mcc="724" mnc="07" apn="mms.sercomtel.com.br" user="sercomtel" server="" password="sercomtel" proxy="" port="" mmsproxy="200.169.126.10" mmsport="8799" mmsprotocol="" mmsc="http://mms.claro.com.br" type="mms" />
   <apn carrier="SFR" mmsc="" mcc="208" mnc="10" apn="sl2sfr" proxy="" port="" user="" server="*" password="" type="default,supl"/>
