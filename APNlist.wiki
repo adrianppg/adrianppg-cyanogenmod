@@ -113,6 +113,8 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Azercell" mcc="400" mnc="01" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Azercell MMS" apn="mms" proxy="" port="" user="" password="" server="" mmsc="http://mms.azercell.com/cMMSC/post" mmsproxy="10.0.154.101" mmsport="8080" mcc="400" mnc="01" type="mms"/>
   <apn carrier="Bakcell" mcc="400" mnc="02" apn="mms" user="" server="" password="" mmsc="http://mms.bakcell.com/mms/wapenc" mmsproxy="213.172.091.046" mmsport="8080" type="default,mms"/>
+  <apn carrier="Banglalink" mcc="470" mnc="03" apn="blweb" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Banglalink MMS" apn="blmms" proxy="" port="" user="" password="" server="" mmsc="http://" mmsproxy="10.10.55.34" mmsport="8799" mcc="470" mnc="03" type="mms"/>
   <apn carrier="BASE Belgium" apn="gprs.base.be" proxy="" port="" user="base" password="base" server="" mmsc="" mmsproxy="" mmsport="" mcc="206" mnc="20" type="default"/>
   <apn carrier="BASE MMS Belgium" apn="mms.base.be" proxy="" port="" user="base" password="base" server="" mmsc="http://mmsc.base.be" mmsproxy="217.72.235.1" mmsport="8080" mcc="206" mnc="20" type="mms"/>
   <apn carrier="BATELCO" mcc="426" mnc="01" apn="internet.batelco.com" user="internet" server="" password="internet" mmsc="" type="default"/>
@@ -124,6 +126,8 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Beeline UA" mcc="255" mnc="02" apn="internet.beeeline.ua" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Beeline UA MMS" mcc="255" mnc="02" apn="mms.beeline.ua" user="" server="" password="" mmsc="http://mms/" mmsproxy="10.11.8.18" mmsport="8080" type="mms"/>
   <apn carrier="Bell" mcc="302" mnc="610" apn="pda.bell.ca" proxy="web.wireless.bell.ca" mmsproxy="web.wireless.bell.ca" mmsport="80" mmsc="http://mms.bell.ca/mms/wapenc" type="default,mms"/>
+  <apn carrier="BH Mobile" mcc="218" mnc="90" apn="active.bhmobile.ba" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="BH Mobile MMS" mcc="218" mnc="90" apn="mms.bhmobile.ba" user="" server="" password="" mmsc="http://mms.bhmobile.ba/cmmsc/post" mmsproxy="195.222.056.041" mmsport="8080" type="mms"/>
   <apn carrier="Bibob internet DK" apn="internet.bibob.dk" proxy="" port="8080" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="238" mnc="02" type=""/>
   <apn carrier="Bibob MMS DK" apn="mms.bibob.dk" proxy="212.88.64.8" port="8080" user="" password="" server="" mmsc="http://mms.telenor.dk" mmsproxy="" mmsport="8080" mcc="238" mnc="02" type="mms"/>
   <apn carrier="Bite " mcc="246" mnc="02" apn="wap" user="" server="213.226.131.133" password="" mmsc="" type="default"/>
@@ -229,6 +233,8 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Cyfrowy Polsat MMS" mcc="260" mnc="12" apn="mms.cyfrowypolsat.pl" mmsc="http://mms.cyfrowypolsat.pl:8002/" mmsproxy="79.171.2.33" mmsport="8080" type="mms" />
   <apn carrier="Digi" mcc="502" mnc="16" apn="diginet" user="digi" server="" password="digi" mmsc="" type="default"/>
   <apn carrier="Digi MMS" mcc="502" mnc="16" apn="digimms" user="mms" server="" password="mms" mmsc="http://mms.digi.com.my/servlets/mms" mmsproxy="203.92.128.160" mmsport="9201" type="mms"/>
+  <apn carrier="Digicel" mcc="342" mnc="750" apn="web.digicelbarbados.com" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Digicel MMS" mcc="342" mnc="750" apn="wap.digicelbarbados.com" user="wapbarb" server="" password="wap03barb" mmsc="http://mme.digiceljamaica.com/servlets/mms" mmsproxy="172.016.007.012" mmsport="8080" type="mms"/>
   <apn carrier="Djezzy Internet" apn="djezzy.internet" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" mcc="603" mnc="02" />
   <apn carrier="Djuice EDGE" apn="www.djuice.com.ua" user="" password="" server="" mmsc="" mcc="255" mnc="03" type="default"/>
   <apn carrier="Djuice MMS" apn="mms.kyivstar.net" user="djuice" password="mms" server="" mmsc="http://http://mms.kyivstar.net" mmsproxy="010.010.010.010" mmsport="8080" mcc="255" mnc="03" type="mms"/>
@@ -397,7 +403,7 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="MTC Vodafone BH MMS" mcc="426" mnc="02" apn="mms" user="mms" server="" password="mms" mmsc="http://172.18.83.129" mmsproxy="172.18.85.34" mmsport="9201" type="mms"/>
   <apn carrier="MTC Vodafone KW" mcc="419" mnc="2" apn="apn01" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="MTC Vodafone KW MMS" mcc="419" mnc="2" apn="mms" user="annyway" server="" password="online" mmsc="http://176.000.000.021" mmsproxy="176.0.0.65" mmsport="8080" type="mms"/>
-  <apn carrier="Mtel" apn="inet-gprs.mtel.bg" mmsc="http://mmsc/" mmsproxy="010.150.000.033" mmsport="8080" mcc="284" mnc="01"/>
+  <apn carrier="Mtel BG" apn="inet-gprs.mtel.bg" mmsc="http://mmsc/" mmsproxy="010.150.000.033" mmsport="8080" mcc="284" mnc="01"/>
   <apn carrier="MTN ZA" apn="myMTN" user="mtn" password="mtn" server="*" mcc="655" mnc="10" type=""/>
   <apn carrier="MTN ZA-MMS" apn="myMTN" user="mtnmms" password="mtnmms" server="" mmsc="http://mms.mtn.co.za/mms/wapenc" mmsproxy="196.11.240.241" mmsport="8080" mcc="655" mnc="10" type="mms"/>
   <apn carrier="MTNL" mcc="404" mnc="68" apn="gprsmtnldel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
@@ -565,6 +571,8 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Reliance MMS" mcc="405" mnc="22" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
   <apn carrier="Reliance" mcc="405" mnc="23" apn="rcomnet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Reliance MMS" mcc="405" mnc="23" apn="rcommms" user="" server="" password="" mmsc="http://mms.rcom.co.in:6081/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms"/>
+  <apn carrier="Robi" apn="internet" user="" password="" server="" mmsc="" port="9201" mcc="470" mnc="02" type="default"/>
+  <apn carrier="Robi MMS" apn="WAP" user="" password="" server="" mmsc="http://192.168.23.4/was" mmsproxy="192.168.023.007" mmsport="9028" mcc="470" mnc="02" type="mms"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="720"/>
   <apn carrier="Rogers" apn="rogers-core-appl1.apn" mmsc="http://mms.gprs.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="72"/>
   <apn carrier="SCTL GPRS" numeric="72407" mcc="724" mnc="07" apn="sercomtel.com.br" user="sercomtel" server="" password="sercomtel" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
@@ -887,8 +895,10 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Vodafone TR MMS" mcc="286" mnc="02" apn="mms" user="vodafone" server="" password="vodafone" mmsc="http://217.31.233.18:6001/MM1Servlet" mmsproxy="217.31.233.18" mmsport="9201" type="mms"/>
   <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" mmsproxy="212.183.137.12" mmsport="8799"/>
   <apn carrier="VOX Mobile" mcc="270" mnc="99" apn="vox.lu" user="" server="" password="" mmsc="http://mms.vox.lu" mmsproxy="212.088.139.44" mmsport="8080" type="default,mms"/>
-  <apn carrier="Warid" mcc="410" mnc="07" apn="warid" user="" server="" password="" type="default"/>
-  <apn carrier="Warid MMS" mcc="410" mnc="07" apn="mms.warid" user="" server="" password="" mmsc="http://10.4.0.132/servlets/MMS" mmsproxy="010.004.002.001" mmsport="8080" type="mms"/>
+  <apn carrier="Warid BD" mcc="470" mnc="07" apn="internet" user="" server="" password="" type="default"/>
+  <apn carrier="Warid BD MMS" mcc="470" mnc="07" apn="mms" user="" server="" password="" mmsc="http://mms.waridtel.com.bd/index.jsp" mmsproxy="10.128.5.6" mmsport="8080" type="mms"/>
+  <apn carrier="Warid PK" mcc="410" mnc="07" apn="warid" user="" server="" password="" type="default"/>
+  <apn carrier="Warid PK MMS" mcc="410" mnc="07" apn="mms.warid" user="" server="" password="" mmsc="http://10.4.0.132/servlets/MMS" mmsproxy="010.004.002.001" mmsport="8080" type="mms"/>
   <apn carrier="wataniya" mcc="419" mnc="3" apn="action.wataniya.com" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="wataniya MMS" mcc="419" mnc="3" apn="mms.wataniya.com" user="" server="" password="" mmsc="http://action.wataniya.com" mmsproxy="194.126.053.064" mmsport="8080" type="mms"/>
   <apn carrier="Wind CA" mcc="302" mnc="490" apn="internet.windmobile.ca" user="" password="" server="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
