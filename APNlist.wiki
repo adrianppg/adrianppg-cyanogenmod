@@ -496,6 +496,7 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Pannon MMS" mcc="216" mnc="01" apn="mms" user="" server="" password="" mmsc="http://mmsc.pgsm.hu/" mmsproxy="193.225.154.22" mmsport="8080" type="mms"/>
   <apn carrier="PCCW" mcc="454" mnc="19" apn="pccw" user="" server="" password="" mmsc="http://3gmms.pccwmobile.com:8080/was" mmsproxy="10.140.14.10" mmsport="8080" type="default,mms"/>
   <apn carrier="Pelephone" mcc="425" mnc="03" apn="internet.pelephone.net.il" user="pcl@3g" server="" password="pcl" mmsc="" type="default"/>
+  <apn carrier="Pelephone Internet Static" mcc="425" mnc="03" apn="org.pelephone.net.il" user="pcl@rsingle" password="pcl" type="default,supl"/>
   <apn carrier="Pelephone MMS" mcc="425" mnc="03" apn="internet.pelephone.net.il" user="pcl@3g" server="pelephone" password="pcl" mmsc="http://mmsu.pelephone.net.il" mmsproxy="10.170.9.54" mmsport="9093" type="mms"/>
   <apn carrier="PEOPLES" mcc="454" mnc="12" apn="peoples.net" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="PEOPLES MMS" mcc="454" mnc="12" apn="170170" user="" server="" password="" mmsc="http://mms.peoples.com.hk/mms" mmsproxy="172.31.31.36" mmsport="8080" type="mms"/>
