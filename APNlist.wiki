@@ -245,7 +245,7 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="DNA INTERNET" mcc="244" mnc="12" apn="Internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="DNA MMS" mcc="244" mnc="12" apn="mms" user="dna" server="" password="mms" mmsc="http://mmsc.dnafinland.fi" mmsproxy="10.1.1.2" mmsport="8080" type="mms"/>
   <apn carrier="DSTCom" mcc="528" mnc="11" apn="dst.internet" user="internet" server="" password="internet" mmsc="" type="default"/>
-  <apn carrier="DSTCom MMS" mcc="528" mnc="11" apn="bmobilemms" user="mms" server="" password="mms" mmsc="http://mms.dst.com.bn/mmsc" mmsproxy="10.100.6.101" mmsport="9201" type="mms"/>
+  <apn carrier="DSTCom MMS" mcc="528" mnc="11" apn="dst.mms" user="mms" server="" password="mms" mmsc="http://mms.dst.com.bn/mmsc" mmsproxy="10.100.6.101" mmsport="9201" type="mms"/>
   <apn carrier="DTAC GPRS WEB" mcc="520" mnc="18" apn="www.dtac.co.th" type="default,supl"/>
   <apn carrier="DTAC MMS" mcc="520" mnc="18" apn="mms" mmsproxy="203.155.200.133" mmsport="8080" mmsc="http://mms.dtac.co.th:8002" type="mms"/>
   <apn carrier="du" mcc="424" mnc="03" apn="du" user="" server="" password="" mmsc="http://mms.du.ae" mmsproxy="10.19.18.4" mmsport="9201" type="default,mms"/>
