@@ -430,8 +430,10 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="MTN CY MMS" mcc="280" mnc="10" apn="mms" user="mms" server="" password="mms" mmsc="http://mms.mtn.com.cy/mmsc" mmsproxy="172.24.97.1" mmsport="3130" type="mms"/>
   <apn carrier="MTN ZA" apn="myMTN" user="mtn" password="mtn" server="*" mcc="655" mnc="10" type="default"/>
   <apn carrier="MTN ZA MMS" apn="myMTN" user="mtnmms" password="mtnmms" server="" mmsc="http://mms.mtn.co.za/mms/wapenc" mmsproxy="196.11.240.241" mmsport="8080" mcc="655" mnc="10" type="mms"/>
-  <apn carrier="MTNL" mcc="404" mnc="68" apn="gprsmtnldel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
-  <apn carrier="MTNL" mcc="404" mnc="69" apn="gprsmtnldel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
+  <apn carrier="MTNL Delhi Postpaid" mcc="404" mnc="69" apn="gprsmtnldel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
+  <apn carrier="MTNL Delhi Prepaid" mcc="404" mnc="69" apn="gprsppsdel" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9201" type="default,mms"/>
+  <apn carrier="MTNL Mumbai Postpaid" mcc="404" mnc="69" apn="gprsmtnlmum" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9401" type="default,mms"/>
+  <apn carrier="MTNL Mumbai Prepaid" mcc="404" mnc="69" apn="gprsppsmum" user="mtnl" server="" password="mtnl123" mmsc="http://172.16.39.140/mms/" mmsproxy="172.16.39.10" mmsport="9401" type="default,mms"/>
   <apn carrier="MTS BY // Internet" apn="mts" mcc="257" mnc="02" user="mts" password="mts" type="default,supl"/>
   <apn carrier="MTS BY // MMS" apn="mts" mcc="257" mnc="02" user="mts" password="mts" mmsc="http://mmsc" mmsproxy="192.168.192.168" mmsport="8080" type="mms"/>
   <apn carrier="MTS RUS" apn="internet.mts.ru" user="mts" password="mts" server="" mmsc="" mcc="250" mnc="01" type="default"/>
