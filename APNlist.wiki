@@ -933,7 +933,7 @@ Updated by Paul Weiss 2010-05-05
   <apn carrier="Vodafone SI MMS" mcc="293" mnc="40" apn="mms.simobil.si" user="simobil" server="" password="internet" mmsc="http://mmc" mmsproxy="80.95.224.46" mmsport="9201" type="mms"/>
   <apn carrier="Vodafone TR" mcc="286" mnc="02" apn="internet" user="vodafone" server="" password="vodafone" mmsc="" type="default"/>
   <apn carrier="Vodafone TR MMS" mcc="286" mnc="02" apn="mms" user="vodafone" server="" password="vodafone" mmsc="http://217.31.233.18:6001/MM1Servlet" mmsproxy="217.31.233.18" mmsport="9201" type="mms"/>
-  <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" mmsproxy="212.183.137.12" mmsport="8799"/>
+  <apn carrier="Vodafone UK-Contract" mcc="234" mnc="15" apn="wap.vodafone.co.uk" user="wap" server="*" password="wap" mmsc="http://mms.vodafone.co.uk/servlets/mms" mmsproxy="212.183.137.012" mmsport="8799"/>
   <apn carrier="VOX Mobile" mcc="270" mnc="99" apn="vox.lu" user="" server="" password="" mmsc="http://mms.vox.lu" mmsproxy="212.088.139.44" mmsport="8080" type="default,mms"/>
   <apn carrier="Warid BD" mcc="470" mnc="07" apn="internet" user="" server="" password="" type="default"/>
   <apn carrier="Warid BD MMS" mcc="470" mnc="07" apn="mms" user="" server="" password="" mmsc="http://mms.waridtel.com.bd/index.jsp" mmsproxy="10.128.5.6" mmsport="8080" type="mms"/>
